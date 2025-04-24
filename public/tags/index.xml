@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Your Site Title</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Your Site Title</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Content-Management</title>
+      <link>//localhost:1313/tags/content-management/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/content-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>//localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Organization</title>
+      <link>//localhost:1313/tags/organization/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/organization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workflow</title>
+      <link>//localhost:1313/tags/workflow/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/workflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>//localhost:1313/tags/optimization/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>//localhost:1313/tags/performance/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seo</title>
+      <link>//localhost:1313/tags/seo/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deployment</title>
+      <link>//localhost:1313/tags/deployment/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/deployment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github-Pages</title>
+      <link>//localhost:1313/tags/github-pages/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netlify</title>
+      <link>//localhost:1313/tags/netlify/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/netlify/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vercel</title>
+      <link>//localhost:1313/tags/vercel/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/vercel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Customization</title>
+      <link>//localhost:1313/tags/customization/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/customization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>//localhost:1313/tags/themes/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/themes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Design</title>
+      <link>//localhost:1313/tags/web-design/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/web-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beginners</title>
+      <link>//localhost:1313/tags/beginners/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/beginners/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static-Site</title>
+      <link>//localhost:1313/tags/static-site/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/static-site/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Development</title>
+      <link>//localhost:1313/tags/web-development/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/web-development/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
