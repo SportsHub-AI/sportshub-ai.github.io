@@ -27,21 +27,21 @@ testimonials:
 ---
 
 {{< hero 
-    headline="Build Your SaaS Website"
-    sub_headline="Create stunning, responsive websites that load instantly. Built with Hugo and TailwindCSS for maximum performance and flexibility."
-    primary_button_text="Get Started Free"
+    headline="Boost Your Sports Training"
+    sub_headline="Every Effort Counts, Every Step is Seen. We Are Here to Track Your Sports Performance and Celebrate Your Progress."
+    primary_button_text="Get Free Apps"
     primary_button_url="#"
     secondary_button_text="View Demo"
     secondary_button_url="#"
-    hero_image="/images/hero-dashboard.svg"
+    hero_image="/images/hero-dashboard-customized.png"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
     gradient-angle="180"
 >}}
 
-{{< client-logos animate="true" >}}
+<!-- {{< client-logos animate="true" >}} -->
 
-{{< features-section 
+<!-- {{< features-section 
     title="Modern Features for Modern Websites"
     description="Discover how our theme helps you build fast, beautiful SaaS websites with ease."
 >}}
@@ -89,6 +89,6 @@ testimonials:
     description="See how teams are building better websites with our theme."
     animate="true"
     background-color="#f1f5f9"
->}}
+>}} -->
 
 {{< cta >}}
