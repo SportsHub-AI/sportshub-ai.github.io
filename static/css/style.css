@@ -3792,6 +3792,10 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0.5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -4215,6 +4219,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
 }
 
 .pt-20 {
@@ -6198,6 +6206,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(53 72 171 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
@@ -6211,6 +6224,10 @@ h1, h2, h3, h4, h5, h6 {
 .hover\:text-primary-700:hover {
   --tw-text-opacity: 1;
   color: rgb(53 72 171 / var(--tw-text-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-90:hover {
