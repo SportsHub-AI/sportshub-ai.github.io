@@ -1,14 +1,30 @@
-# Basic Configuration
 baseURL = "/"
 languageCode = "zh-cn"
 title = "SportsHub.AI"
 theme = "hugo-saasify-theme"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+
+# 语言定义
+[languages]
+
+  [languages.zh]
+    languageName = "简体中文"
+    contentDir = "content/zh"
+    lang = "zh-cn"
+    weight = 1
+
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    lang = "en"
+    weight = 2
 
 # Required Features
-pygmentsCodeFences = true  # Enable syntax highlighting
+pygmentsCodeFences = true
 pygmentsUseClasses = true
-enableEmoji = true        # Enable emoji support
-enableGitInfo = true      # Enable Git info for lastmod
+enableEmoji = true
+enableGitInfo = true
 
 # Required Module Configuration
 [module]
@@ -18,7 +34,7 @@ enableGitInfo = true      # Enable Git info for lastmod
 
 # Required Build Configuration
 [build]
-  writeStats = true      # Required for TailwindCSS
+  writeStats = true
 
 # Required Markup Configuration
 [markup]
@@ -27,74 +43,44 @@ enableGitInfo = true      # Enable Git info for lastmod
     lineNos = true
     codeFences = true
   [markup.goldmark.renderer]
-    unsafe = true       # Allow HTML in markdown
+    unsafe = true
   [markup.tableOfContents]
     endLevel = 3
     ordered = false
     startLevel = 2
 
-# Theme Parameters
+# Theme Parameters (共享参数，可在 zh/en 各自语言内容中重写)
 [params]
   description = "Your site description"
   author = "Your Name"
-  logo = "/images/shai-logo.svg"      # Path to your logo
-  # Google Analytics ID (e.g., "G-XXXXXXXXXX")
-  googleAnalytics = "G-XXXXXXXXXX"  # Only enabled in production
+  logo = "/images/shai-logo.svg"
 
-  # Header Configuration
+  googleAnalytics = "G-XXXXXXXXXX"
+
   [params.header]
     background = "bg-white/80 backdrop-blur-sm"
     border = "border-b border-gray-100"
-    
-    # Header Logo
+
     [params.header.logo]
       src = "/images/shai-logo.svg"
-    
-    # Header Buttons (optional)
+
     [params.header.buttons]
-      # [params.header.buttons.signIn]
-      #   text = "Sign in"
-      #   url = "/signin"
       [params.header.buttons.getStarted]
-        text = "Contact Us"
+        text = "联系我们"
         url = "mailto:bussiness@sportshub-ai.com"
 
-  # Global CTA Configuration (optional)
   [params.cta]
     enable = true
-    title = "Ready to Get Started?"
-    description = "Join companies using our platform"
+    title = "准备开始了吗？"
+    description = "加入使用我们平台的企业"
     [params.cta.primary_button]
-      text = "Get Started Free"
-      # url = "/get-started"
+      text = "免费开始"
       url = "#"
     [params.cta.secondary_button]
-      text = "Book Demo"
-      # url = "/demo"
+      text = "预约演示"
       url = "#"
 
-  # Social Media Links (optional)
   [params.social]
     # linkedin = "https://linkedin.com/in/yourusername"
     # twitter = "https://twitter.com/yourusername"
     # github = "https://github.com/SportsHub-AI"
-
-# Navigation Menu
-[menu]
-  # [[menu.main]]
-  #   name = "Features"
-  #   weight = 1
-  #   [menu.main.params]
-  #     has_submenu = true
-  #     submenu = [
-  #       { name = "Feature 1", url = "/features/design-system/" },
-  #       { name = "Feature 2", url = "/features/feature-2/" }
-  #     ]
-  # [[menu.main]]
-  #   name = "Pricing"
-  #   url = "/pricing"
-  #   weight = 2
-  # [[menu.main]]
-  #   name = "Blog"
-  #   url = "/blog"
-  #   weight = 3
