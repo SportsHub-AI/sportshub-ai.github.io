@@ -6,19 +6,103 @@ defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 
 # 语言定义
-[languages]
 
-  [languages.zh]
-    languageName = "简体中文"
-    contentDir = "content/zh"
-    lang = "zh-cn"
+[languages.en]
+  weight = 2
+  languageName = "English"
+  contentDir = "content/en"
+  lang = "en"
+
+  [[languages.en.menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/en/"
     weight = 1
 
-  [languages.en]
-    languageName = "English"
-    contentDir = "content/en"
-    lang = "en"
+  [[languages.en.menu.main]]
+    identifier = "company"
+    name = "Company"
+    url = "/en/company/"
     weight = 2
+
+  [[languages.en.menu.main]]
+  identifier = "products"
+  name = "Products"
+  weight = 3
+
+  [[languages.en.menu.main]]
+  parent = "products"
+  name = "Swish App - AI-driven basketball training"
+  url = "/en/products/swish-app/"
+  weight = 1
+
+  [[languages.en.menu.main]]
+  parent = "products"
+  name = "Video Editor"
+  #url = "/en/products/video-editor/"
+  weight = 2
+
+  [[languages.en.menu.main]]
+  parent = "products"
+  name = "Intelligent Football Wearable Devices"
+  #url = "/en/products/football-wearable/"
+  weight = 3
+
+
+  [[languages.en.menu.main]]
+    identifier = "Contact"
+    name = "Contact"
+    url = "/en/contact/"
+    weight = 4
+
+
+[languages.zh]
+  weight = 1
+  languageName = "简体中文"
+  contentDir = "content/zh"
+  lang = "zh"
+
+  [[languages.zh.menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/zh/"
+    weight = 1
+
+  [[languages.zh.menu.main]]
+    identifier = "company"
+    name = "公司介绍"
+    url = "/zh/company/"
+    weight = 2
+    
+  
+  [[languages.zh.menu.main]]
+  identifier = "products"
+  name = "产品简介"
+  weight = 3
+
+  [[languages.zh.menu.main]]
+  parent = "products"
+  name = "空心球App-AI驱动的智能篮球训练"
+  url = "/zh/products/swish-app/"
+  weight = 1
+
+  [[languages.zh.menu.main]]
+  parent = "products"
+  name = "视频剪辑"
+  #url = "/zh/products/video-editor/"
+  weight = 2
+
+  [[languages.zh.menu.main]]
+  parent = "products"
+  name = "智能足球穿戴装备"
+  #url = "/zh/products/football-wearable/"
+  weight = 3
+
+  [[languages.zh.menu.main]]
+    identifier = "contact"
+    name = "联系我们"
+    url = "/zh/contact/"
+    weight = 4
 
 # Required Features
 pygmentsCodeFences = true
@@ -64,10 +148,10 @@ enableGitInfo = true
     [params.header.logo]
       src = "/images/shai-logo.svg"
 
-    [params.header.buttons]
-      [params.header.buttons.getStarted]
-        text = "联系我们"
-        url = "mailto:bussiness@sportshub-ai.com"
+    #[params.header.buttons]
+    #  [params.header.buttons.getStarted]
+    #    text = "联系我们"
+    #    url = "mailto:business@sportshub-ai.com"
 
   [params.cta]
     enable = true

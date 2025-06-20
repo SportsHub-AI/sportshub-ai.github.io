@@ -20,7 +20,7 @@
         <!-- Navigation Links -->
         <div class="hidden md:flex items-center {{ with $headerConfig.menu.spacing }}{{ . }}{{ else }}space-x-8{{ end }}">
           {{ range .Site.Menus.main }}
-            {{ if .Params.has_submenu }}
+            {{ if .HasChildren }}
               <!-- Dropdown -->
               <div class="relative group">
                 <button class="flex items-center {{ with $headerConfig.menu.linkClass }}{{ . }}{{ else }}text-base text-gray-900 hover:text-primary-600 font-bold transition duration-200{{ end }}">
@@ -31,8 +31,10 @@
                 </button>
                 <div class="absolute left-0 mt-2 {{ $dropdownConfig.width | default "w-72" }} opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-in-out">
                   <div class="{{ $dropdownConfig.container_padding | default "py-6" }} {{ $dropdownConfig.background | default "bg-white" }} {{ $dropdownConfig.border | default "border border-gray-100" }} {{ $dropdownConfig.shadow | default "shadow-xl" }} {{ $dropdownConfig.radius | default "rounded-lg" }}">
-                    {{ range .Params.submenu }}
-                      <a href="{{ .url }}" class="block {{ $dropdownConfig.item_padding | default "px-8 py-3" }} {{ $dropdownConfig.text_size | default "text-sm" }} {{ $dropdownConfig.text_color | default "text-gray-700" }} {{ $dropdownConfig.hover_background | default "hover:bg-gray-50" }}">{{ .name }}</a>
+                    {{ range .Children }}
+                      <a href="{{ .URL }}" class="block {{ $dropdownConfig.item_padding | default "px-8 py-3" }} {{ $dropdownConfig.text_size | default "text-sm" }} {{ $dropdownConfig.text_color | default "text-gray-700" }} {{ $dropdownConfig.hover_background | default "hover:bg-gray-50" }}">
+                        {{ .Name }}
+                      </a>
                     {{ end }}
                   </div>
                 </div>
@@ -57,21 +59,20 @@
             </a>
           {{ end }}
 
-            <!-- Language Switch -->
-            <div class="flex items-center gap-3 text-sm">
+          <!-- Language Switch (Desktop) -->
+          <div class="flex items-center gap-3 text-sm">
             {{ $currentLang := .Site.Language.Lang }}
             {{ $currentURL := .Permalink }}
             {{ range .Site.Languages }}
-                {{ if ne .Lang $currentLang }}
+              {{ if ne .Lang $currentLang }}
                 {{ $targetURL := replace $currentURL (print "/" $currentLang "/") (print "/" .Lang "/") }}
                 <a href="{{ $targetURL }}" class="text-gray-600 hover:text-black hover:underline">
-                    {{ .LanguageName }}
+                  {{ .LanguageName }}
                 </a>
-                {{ end }}
+              {{ end }}
             {{ end }}
-            </div>
-
           </div>
+
         </div>
         {{ end }}
 
@@ -90,12 +91,12 @@
     <div class="nav-content md:hidden w-full fixed left-0 right-0 top-20 bg-white border-t border-gray-100 shadow-lg">
       <div class="w-full px-6 py-4">
         {{ range .Site.Menus.main }}
-          {{ if .Params.has_submenu }}
+          {{ if .HasChildren }}
           <div class="py-2">
             <div class="text-xl text-gray-900 font-bold mb-2">{{ .Name }}</div>
             <div class="pl-4">
-              {{ range .Params.submenu }}
-              <a href="{{ .url }}" class="block text-gray-700 hover:text-primary-600 py-2">{{ .name }}</a>
+              {{ range .Children }}
+              <a href="{{ .URL }}" class="block text-gray-700 hover:text-primary-600 py-2">{{ .Name }}</a>
               {{ end }}
             </div>
           </div>
@@ -120,20 +121,14 @@
 
           <!-- Mobile Language Switch -->
           <div class="pt-2 text-center text-sm">
-            {{ $translations := .Translations }}
-            {{ if gt (len $translations) 0 }}
-              {{ range $translations }}
-                <a href="{{ .RelPermalink }}" class="text-gray-600 hover:text-black hover:underline">
-                  {{ .Language.LanguageName }}
+            {{ $currentLang := .Site.Language.Lang }}
+            {{ $currentURL := .Permalink }}
+            {{ range .Site.Languages }}
+              {{ if ne .Lang $currentLang }}
+                {{ $targetURL := replace $currentURL (print "/" $currentLang "/") (print "/" .Lang "/") }}
+                <a href="{{ $targetURL }}" class="text-gray-600 hover:text-black hover:underline">
+                  {{ .LanguageName }}
                 </a>
-              {{ end }}
-            {{ else }}
-              {{ range .Site.Languages }}
-                {{ if ne .Lang $.Site.Language.Lang }}
-                  <a href="/{{ .Lang }}/" class="text-gray-600 hover:text-black hover:underline">
-                    {{ .Language.LanguageName }}
-                  </a>
-                {{ end }}
               {{ end }}
             {{ end }}
           </div>
