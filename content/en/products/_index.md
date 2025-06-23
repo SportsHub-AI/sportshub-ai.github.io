@@ -36,7 +36,7 @@ testimonials:
   primary_button_url="#"
   secondary_button_text="观看演示"
   secondary_button_url="#"
-  hero_image="/images/hero-dashboard-customized.png"
+  hero_image="/images/home_demo.png"
   gradient-from="#dbeafe"
   gradient-to="#f3e8ff"
   gradient-angle="180"

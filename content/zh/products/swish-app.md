@@ -29,7 +29,7 @@ layout: "company"
 {{< section-container class="py-20 bg-gray-50" >}}
 <div class="max-w-4xl mx-auto text-center">
   <h3 class="text-3xl font-bold mb-6">适用用户</h3>
-  <p class="text-xl text-gray-600 mb-6">无论你是业余爱好者还是职业球员，Swish 都能成为你的理想训练助手。</p>
+  <p class="text-xl text-gray-600 mb-6">无论你是业余爱好者还是职业球员，空心球App都能成为你的理想训练助手。</p>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-left">
     <div>
       <h4 class="font-bold text-xl mb-2">青少年运动员</h4>

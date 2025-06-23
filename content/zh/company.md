@@ -17,11 +17,13 @@ description: "Learn about our mission, technology, and the team behind SportsHub
 {{< /section-container >}}
 
 {{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
+  <!-- 标题部分：居中 -->
   <div class="max-w-4xl mx-auto text-center">
     <h2 class="text-4xl font-bold mb-6">公司简介</h2>
   </div>
 
-  <div class="max-w-5xl mx-auto grid grid-cols-1 gap-8 px-4 md:px-0">
+  <!-- 正文部分：两端对齐 -->
+  <div class="max-w-5xl mx-auto grid grid-cols-1 gap-8 px-4 md:px-0 text-justify">
     <p class="text-xl text-gray-600">
       SportsHub.AI（深圳锐浪体育发展有限公司）是一家以人工智能驱动的运动数据分析与训练工具研发为核心的高科技公司，致力于为职业俱乐部、草根球队、专业运动员和体育爱好者提供智能化、自动化的运动表现分析服务，让用户在最短时间内获取最精确的训练反馈。
     </p>
@@ -36,3 +38,4 @@ description: "Learn about our mission, technology, and the team behind SportsHub
     </p>
   </div>
 {{< /section-container >}}
+

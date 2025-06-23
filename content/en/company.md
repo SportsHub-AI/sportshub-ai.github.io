@@ -14,11 +14,13 @@ description: "Learn about our mission, technology, and the team behind SportsHub
 {{< /section-container >}}
 
 {{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
+  <!-- 居中的标题部分 -->
   <div class="max-w-4xl mx-auto text-center">
     <h2 class="text-4xl font-bold mb-6">Company Overview</h2>
   </div>
 
-  <div class="max-w-5xl mx-auto grid grid-cols-1 gap-8 px-4 md:px-0">
+  <!-- 正文段落，两端对齐 -->
+  <div class="max-w-5xl mx-auto grid grid-cols-1 gap-8 px-4 md:px-0 text-justify">
     <p class="text-xl text-gray-600">
       SportsHub.AI is a high-tech company focused on AI-powered sports data analysis and training application development. We are committed to providing intelligent and automated performance analysis services for professional clubs, grassroots teams, individual athletes, and sports enthusiasts—delivering accurate training feedback in the shortest possible time.
     </p>
@@ -33,3 +35,4 @@ description: "Learn about our mission, technology, and the team behind SportsHub
     </p>
   </div>
 {{< /section-container >}}
+

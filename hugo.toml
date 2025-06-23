@@ -27,26 +27,32 @@ defaultContentLanguageInSubdir = true
 
   [[languages.en.menu.main]]
   identifier = "products"
-  name = "Products"
+  name = "Solutions"
   weight = 3
 
   [[languages.en.menu.main]]
   parent = "products"
-  name = "Swish App - AI-driven basketball training"
+  name = "Swish Shot App"
   url = "/en/products/swish-app/"
   weight = 1
 
   [[languages.en.menu.main]]
   parent = "products"
-  name = "Video Editor"
-  #url = "/en/products/video-editor/"
+  name = "Team Sport Data Collection"
+  url = "/en/products/data-collection/"
   weight = 2
 
   [[languages.en.menu.main]]
   parent = "products"
-  name = "Intelligent Football Wearable Devices"
-  #url = "/en/products/football-wearable/"
+  name = "Automated Data Analytics"
+  url = "/en/products/data-analysis/"
   weight = 3
+
+  [[languages.en.menu.main]]
+  parent = "products"
+  name = "Professional Sports Database"
+  url = "/en/products/database/"
+  weight = 4
 
 
   [[languages.en.menu.main]]
@@ -77,26 +83,32 @@ defaultContentLanguageInSubdir = true
   
   [[languages.zh.menu.main]]
   identifier = "products"
-  name = "产品简介"
+  name = "解决方案"
   weight = 3
 
   [[languages.zh.menu.main]]
   parent = "products"
-  name = "空心球App-AI驱动的智能篮球训练"
+  name = "空心球App"
   url = "/zh/products/swish-app/"
   weight = 1
 
   [[languages.zh.menu.main]]
   parent = "products"
-  name = "视频剪辑"
-  #url = "/zh/products/video-editor/"
+  name = "团队运动数据收集"
+  url = "/zh/products/data-collection/"
   weight = 2
 
   [[languages.zh.menu.main]]
   parent = "products"
-  name = "智能足球穿戴装备"
-  #url = "/zh/products/football-wearable/"
+  name = "自动化数据分析"
+  url = "/zh/products/data-analysis/"
   weight = 3
+
+  [[languages.zh.menu.main]]
+  parent = "products"
+  name = "职业赛事数据库"
+  url = "/zh/products/database/"
+  weight = 4
 
   [[languages.zh.menu.main]]
     identifier = "contact"

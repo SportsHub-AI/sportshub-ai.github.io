@@ -3658,6 +3658,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 2rem;
 }
 
+.w-\[500px\] {
+  width: 500px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -3762,10 +3766,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -4225,10 +4225,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 7rem;
 }
 
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
 }
@@ -4261,6 +4257,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 2rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -4271,6 +4271,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-right {
   text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-mono {
@@ -6387,10 +6391,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -6405,10 +6405,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -6490,6 +6486,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
