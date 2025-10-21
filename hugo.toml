@@ -173,7 +173,7 @@ enableGitInfo = true
 [params]
   description = "Your site description"
   author = "Your Name"
-  logo = "/images/shai-logo.svg"
+  logo = "/images/company-logo.jpeg"
 
   googleAnalytics = "G-XXXXXXXXXX"
 
@@ -182,7 +182,7 @@ enableGitInfo = true
     border = "border-b border-gray-100"
 
     [params.header.logo]
-      src = "/images/shai-logo.svg"
+      src = "/images/company-logo.jpeg"
 
     #[params.header.buttons]
     #  [params.header.buttons.getStarted]
