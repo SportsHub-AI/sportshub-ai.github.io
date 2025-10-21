@@ -21,7 +21,7 @@ layout: "company"
     </ul>
   </div>
   <div>
-    <img src="/images/swish.png" alt="Swish App Preview" class="rounded-xl shadow-md" />
+    <img src="/images/swish-view.png" alt="Swish App Preview" class="rounded-xl shadow-md" />
   </div>
 </div>
 {{< /section-container >}}
