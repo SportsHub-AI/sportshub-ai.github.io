@@ -12,7 +12,7 @@ description: "获取我们的联系信息与办公地址，欢迎来访或咨询
 
   <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8 text-gray-800">
     <h2 class="text-2xl font-semibold mb-4">办公地址</h2>
-    <p class="mb-4">深圳市宝安区福海街道塘尾社区荔园路翰宇湾区创新港6号楼617</p>
+    <p class="mb-4">深圳市坪山区龙田街道老坑社区光科一路6号青铜剑科技大厦1栋423</p>
 
     <h2 class="text-2xl font-semibold mt-8 mb-4">联系方式</h2>
     <ul class="space-y-2">
@@ -28,7 +28,7 @@ description: "获取我们的联系信息与办公地址，欢迎来访或咨询
     <div class="rounded-xl overflow-hidden shadow-lg">
       <!-- 替换为你真实地图嵌入地址 -->
       <iframe 
-        src="https://map.baidu.com/search/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E7%A6%8F%E6%B5%B7%E8%A1%97%E9%81%93%E5%A1%98%E5%B0%BE%E7%A4%BE%E5%8C%BA%E8%8D%94%E5%9B%AD%E8%B7%AF%E7%BF%B0%E5%AE%87%E6%B9%BE%E5%8C%BA%E5%88%9B%E6%96%B0%E6%B8%AF/@12668163.758644078,2579565.63622225,19z?querytype=s&da_src=shareurl&wd=%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E7%A6%8F%E6%B5%B7%E8%A1%97%E9%81%93%E5%A1%98%E5%B0%BE%E7%A4%BE%E5%8C%BA%E8%8D%94%E5%9B%AD%E8%B7%AF%E7%BF%B0%E5%AE%87%E6%B9%BE%E5%8C%BA%E5%88%9B%E6%96%B0%E6%B8%AF&c=340&src=0&pn=0&sug=0&l=19&b=(12667683.758644078,2579337.88622225;12668643.758644078,2579793.38622225)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1" 
+        src="https://amap.com/place/B0J155RMXF" 
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
