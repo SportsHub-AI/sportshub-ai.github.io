@@ -28,7 +28,7 @@ description: "获取我们的联系信息与办公地址，欢迎来访或咨询
     <div class="rounded-xl overflow-hidden shadow-lg">
       <!-- 替换为你真实地图嵌入地址 -->
       <iframe 
-        src="https://amap.com/place/B0J155RMXF" 
+        src="https://amap.com/search?query=%E9%9D%92%E9%93%9C%E5%89%91%E7%A7%91%E6%8A%80%E5%A4%A7%E5%8E%A6&city=000000&geoobj=6.916911%7C50.921664%7C6.932361%7C50.926676&zoom=17" 
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
