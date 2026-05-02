@@ -1,57 +1,13 @@
 ---
-title: "AcePoint - AI-Powered Tennis Match and Training Analysis"
-description: "An AI-driven tennis match and training analysis tool — your digital training assistant and professional tennis analyst."
+title: "AcePoint App"
+description: "AI-powered tennis match and training analysis for strokes, landing zones, action types, and key clips."
 layout: "company"
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h2 class="text-4xl font-bold mb-6">AcePoint App</h2>
-  <p class="text-xl text-gray-600">An AI-powered tennis match and training analysis tool — your digital training assistant and professional tennis analyst.
-  </p>
-</div>
+<section class="section bg-white"><div class="container grid gap-12 lg:grid-cols-[0.9fr_1fr] lg:items-center"><div><p class="eyebrow">Tennis intelligence</p><h1 class="text-4xl md:text-6xl">AcePoint App</h1><p class="mt-6 text-lg leading-8 text-slate-600">An AI-powered tennis match and training analysis tool that helps athletes, coaches, and event organizers understand performance faster.</p><div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="btn-primary" href="/en/contact/">Request trial info</a><a class="btn-outline" href="/en/products/">Back to solutions</a></div></div><div class="dark-panel"><img src="/images/tennis-app.png" alt="AcePoint App interface" class="rounded-md bg-white"></div></div></section>
 
-<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start px-4 md:px-0 mt-12">
-  <div>
-    <h3 class="text-2xl font-bold mb-4">App Highlights</h3>
-    <ul class="list-disc list-inside text-gray-700 text-lg space-y-3">
-      <li>AI automatically detects shot placement and stroke type, accurately mapping your technical profile</li>
-      <li>Automatically edits match or training videos to capture key moments</li>
-      <li>Professional-grade data analysis providing comprehensive technical and physical reports</li>
-      <li>Supports multiple hardware data sources, ensuring seamless transitions between convenience and professional precision</li>
-    </ul>
-  </div>
-  <div>
-    <img src="/images/tennis-app.png" alt="Tennis App Preview" class="rounded-xl shadow-md" />
-  </div>
-</div>
-{{< /section-container >}}
+<section class="section bg-slate-50"><div class="container grid gap-6 md:grid-cols-2 lg:grid-cols-4"><div class="card"><h2 class="text-lg">Stroke recognition</h2><p class="mt-2 text-sm text-slate-600">Identify stroke location, landing zone, and action type.</p></div><div class="card"><h2 class="text-lg">Auto clips</h2><p class="mt-2 text-sm text-slate-600">Automatically extract key match and training moments.</p></div><div class="card"><h2 class="text-lg">Pro reports</h2><p class="mt-2 text-sm text-slate-600">Deliver technical, physical, and tempo analysis.</p></div><div class="card"><h2 class="text-lg">Hardware options</h2><p class="mt-2 text-sm text-slate-600">Support multiple capture methods for convenience and precision.</p></div></div></section>
 
-{{< section-container class="py-20 bg-gray-50" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Target Users</h3>
-  <p class="text-xl text-gray-600 mb-6">From athletes to tournament organizers, the AcePoint App is your ideal choice.</p>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-left">
-    <div>
-      <h4 class="font-bold text-xl mb-2">Professional Athletes</h4>
-      <p class="text-gray-600">Use big data to summarize player strengths and weaknesses for targeted improvement</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Tournament Organizers</h4>
-      <p class="text-gray-600">Real-time match statistics enhance both the professionalism and viewing experience</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Tennis Enthusiasts</h4>
-      <p class="text-gray-600">Easily start intelligent training with your smartphone and track your personal progress</p>
-    </div>
-  </div>
-</div>
-{{< /section-container >}}
+<section class="section bg-white"><div class="container"><p class="eyebrow">Use cases</p><h2 class="max-w-3xl text-3xl md:text-5xl">For personal training, professional preparation, and event operations</h2><div class="mt-10 grid gap-5 md:grid-cols-3"><div class="card"><h3 class="text-xl">Professional athletes</h3><p class="mt-3 text-sm leading-6 text-slate-600">Summarize playing characteristics and target improvements.</p></div><div class="card"><h3 class="text-xl">Event organizers</h3><p class="mt-3 text-sm leading-6 text-slate-600">Bring real-time data statistics to matches.</p></div><div class="card"><h3 class="text-xl">Tennis enthusiasts</h3><p class="mt-3 text-sm leading-6 text-slate-600">Record training with a phone and track growth.</p></div></div></div></section>
 
-{{< section-container class="py-20" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Learn More</h3>
-  <p class="text-xl text-gray-600 mb-4">For product trials, pricing, or business collaborations, please contact us at:</p>
-  <p class="text-lg text-primary-600 font-semibold">📧 business@sportshub-ai.com</p>
-</div>
-{{< /section-container >}}
+<section class="section-tight bg-[#1d1d1f] text-white"><div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between"><div><h2 class="text-3xl text-white">Learn more about AcePoint</h2><p class="mt-3 text-slate-300">Contact us for trials, pricing, or partnerships.</p></div><a class="btn bg-white text-[#1d1d1f] hover:bg-[#f5f5f7]" href="mailto:business@sportshub-ai.com">business@sportshub-ai.com</a></div></section>

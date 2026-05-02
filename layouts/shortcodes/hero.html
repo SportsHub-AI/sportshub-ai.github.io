@@ -1,0 +1,50 @@
+{{ $headline := .Get "headline" }}
+{{ $sub := .Get "sub_headline" }}
+{{ $primaryText := .Get "primary_button_text" }}
+{{ $primaryURL := .Get "primary_button_url" | default "#" }}
+{{ $secondaryText := .Get "secondary_button_text" }}
+{{ $secondaryURL := .Get "secondary_button_url" | default "#" }}
+{{ $image := .Get "hero_image" }}
+{{ $isZh := eq .Page.Site.Language.Lang "zh" }}
+<section class="arena-hero">
+  <div class="container relative z-10 grid min-h-[760px] gap-12 pb-24 pt-20 lg:grid-cols-[0.88fr_1.12fr] lg:items-center lg:pt-16">
+    <div>
+      <div class="mb-6 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/10 px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#8ec5ff]">
+        <span class="h-2 w-2 rounded-full bg-[#0071e3] shadow-[0_0_18px_rgba(0,113,227,0.85)]"></span>
+        SportsHub.AI Performance Lab
+      </div>
+      <h1 class="max-w-5xl text-5xl font-black leading-[0.95] text-white md:text-7xl lg:text-8xl">{{ $headline }}</h1>
+      <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300">{{ $sub }}</p>
+      <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+        {{ with $primaryText }}<a class="btn-primary" href="{{ $primaryURL }}">{{ . }}</a>{{ end }}
+        {{ with $secondaryText }}<a class="btn border border-white/20 bg-white/10 text-white hover:bg-white/15" href="{{ $secondaryURL }}">{{ . }}</a>{{ end }}
+      </div>
+      <div class="mt-10 grid max-w-xl grid-cols-3 gap-3">
+        <div class="glass-stat"><div class="text-2xl font-black text-white">AI</div><div class="mt-1 text-xs text-slate-400">{{ if $isZh }}视觉识别{{ else }}Vision{{ end }}</div></div>
+        <div class="glass-stat"><div class="text-2xl font-black text-white">GPS</div><div class="mt-1 text-xs text-slate-400">{{ if $isZh }}运动轨迹{{ else }}Tracking{{ end }}</div></div>
+        <div class="glass-stat"><div class="text-2xl font-black text-white">DATA</div><div class="mt-1 text-xs text-slate-400">{{ if $isZh }}表现报告{{ else }}Reports{{ end }}</div></div>
+      </div>
+    </div>
+    <div class="relative">
+      <div class="command-panel">
+        {{ with $image }}
+          <img src="{{ . }}" alt="SportsHub.AI product dashboard" class="aspect-[1.2/1] w-full rounded-md bg-white object-cover">
+        {{ end }}
+        <div class="absolute left-6 top-6 rounded-md border border-white/10 bg-ink-900/80 px-4 py-3 text-white backdrop-blur">
+          <div class="text-xs uppercase tracking-[0.16em] text-[#8ec5ff]">Live capture</div>
+          <div class="mt-1 text-2xl font-black">96.4%</div>
+        </div>
+        <div class="absolute bottom-6 right-6 w-48 rounded-md border border-white/10 bg-white/90 p-4 text-ink-900 shadow-xl">
+          <div class="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.14em] text-slate-500"><span>Load</span><span class="text-[#0071e3]">+18%</span></div>
+          <div class="mt-3 h-2 rounded-full bg-slate-200"><div class="h-2 w-3/4 rounded-full bg-[#0071e3]"></div></div>
+          <div class="mt-3 text-sm font-bold">{{ if $isZh }}下一组训练强度建议{{ else }}Next intensity recommendation{{ end }}</div>
+        </div>
+      </div>
+      <div class="mt-5 grid grid-cols-3 gap-3 text-sm text-slate-300">
+        <div class="border-t border-white/10 pt-3">{{ if $isZh }}篮球投篮{{ else }}Basketball shots{{ end }}</div>
+        <div class="border-t border-white/10 pt-3">{{ if $isZh }}网球落点{{ else }}Tennis zones{{ end }}</div>
+        <div class="border-t border-white/10 pt-3">{{ if $isZh }}足球负荷{{ else }}Football load{{ end }}</div>
+      </div>
+    </div>
+  </div>
+</section>

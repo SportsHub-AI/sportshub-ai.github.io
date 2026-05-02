@@ -1,50 +1,13 @@
 ---
 title: "Professional Sports Database"
-description: "Match-level data for professional football and basketball"
+description: "Professional basketball and football match data for research, analysis, and product development."
 layout: "company"
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
-<div class="max-w-6xl mx-auto text-center">
-  <h2 class="text-4xl font-bold mb-6">Professional Sports Database</h2>
-  <p class="text-xl text-gray-600">We offer comprehensive datasets covering professional basketball and football matches to support research, analysis, and product development.</p>
-</div>
+<section class="section bg-white"><div class="container grid gap-12 lg:grid-cols-[0.9fr_1fr] lg:items-center"><div><p class="eyebrow">Sports database</p><h1 class="text-4xl md:text-6xl">Professional Sports Database</h1><p class="mt-6 text-lg leading-8 text-slate-600">We provide professional basketball and football match data resources for research, match analysis, content production, and intelligent sports product development.</p><div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="btn-primary" href="/en/contact/">Request sample data</a><a class="btn-outline" href="/en/products/">Back to solutions</a></div></div><div class="dark-panel"><img src="/images/football_data.png" alt="Football event data visualization" class="rounded-md bg-white"></div></div></section>
 
-<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 px-4 md:px-0">
-  <!-- 🏀 Basketball Card -->
-  <div class="bg-white rounded-2xl shadow-lg p-8 transition hover:shadow-xl">
-    <h3 class="text-2xl font-extrabold text-center text-gray-800 mb-4">Basketball Data</h3>
-    <p class="text-lg text-gray-600 text-center mb-6">
-      Covering NBA, CBA, and various international competitions.
-    </p>
-    <ul class="space-y-3 text-gray-700 text-base list-disc list-inside">
-      <li><span class="font-semibold">Technical Stats:</span> Points, assists, rebounds, steals, fouls, and more</li>
-      <li><span class="font-semibold">Event Data:</span> Shot attempts, passes with location and execution quality</li>
-      <li><span class="font-semibold">Positional Data:</span> Player tracking, heatmaps, and biometric movement data</li>
-    </ul>
-  </div>
+<section class="section bg-slate-50"><div class="container grid gap-6 md:grid-cols-2"><div class="card"><h2 class="text-2xl">Basketball data</h2><p class="mt-3 text-slate-600">Covering NBA, CBA, and international competitions.</p><ul class="mt-5 space-y-3 text-sm text-slate-600"><li>Technical stats: points, assists, rebounds, steals, fouls, and more</li><li>Event data: shot and pass events with location and execution quality</li><li>Position data: player tracks, heatmaps, and biometric movement data</li></ul></div><div class="card"><h2 class="text-2xl">Football data</h2><p class="mt-3 text-slate-600">Covering the Chinese Super League, top European leagues, and other major competitions.</p><ul class="mt-5 space-y-3 text-sm text-slate-600"><li>Technical stats: goals, assists, passes, tackles, saves, dribbles, and more</li><li>Event data: event type, location, body part, and involved players</li><li>Position data: player movement paths, zone heatmaps, and dynamic physical monitoring</li></ul></div></div></section>
 
-  <!-- ⚽ Football Card -->
-  <div class="bg-white rounded-2xl shadow-lg p-8 transition hover:shadow-xl">
-    <h3 class="text-2xl font-extrabold text-center text-gray-800 mb-4">Football Data</h3>
-    <p class="text-lg text-gray-600 text-center mb-6">
-      Covering the Chinese Super League, top five European leagues, and other major competitions.
-    </p>
-    <ul class="space-y-3 text-gray-700 text-base list-disc list-inside">
-      <li><span class="font-semibold">Technical Stats:</span> Goals, assists, passes, tackles, saves, dribbles, and more</li>
-      <li><span class="font-semibold">Event Data:</span> Includes event types, positions, body parts, and participating players</li>
-      <li><span class="font-semibold">Positional Data:</span> Player tracking, zone-based heatmaps, and dynamic physical performance data</li>
-    </ul>
-  </div>
-</div>
+<section class="section bg-white"><div class="container grid gap-10 lg:grid-cols-[1fr_0.8fr] lg:items-center"><div><p class="eyebrow">Data use</p><h2 class="text-3xl md:text-5xl">Support research, modeling, and product development</h2><p class="mt-5 text-lg leading-8 text-slate-600">We can provide sample data, field documentation, analysis reports, and custom data services based on collaboration needs.</p></div><img src="/images/heatmap.png" alt="Sports heatmap data visualization" class="rounded-lg border border-slate-200 bg-white shadow-sm"></div></section>
 
-<div class="max-w-4xl mx-auto text-center mt-12">
-  <img src="/images/football_data.png" alt="Football Event Detection Illustration" class="w-[500px] inline-block rounded-xl shadow-lg" />
-</div>
-
-<!-- 📩 Contact -->
-<div class="max-w-4xl mx-auto text-center mt-12">
-  <p class="text-xl text-gray-600 mb-2">To request sample data or a demo, please contact us at:</p>
-  <p class="text-lg text-primary-600 font-semibold">📧 business@sportshub-ai.com</p>
-</div>
-{{< /section-container >}}
+<section class="section-tight bg-[#1d1d1f] text-white"><div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between"><div><h2 class="text-3xl text-white">Request sample data or a demo</h2><p class="mt-3 text-slate-300">We will match data resources to your use case.</p></div><a class="btn bg-white text-[#1d1d1f] hover:bg-[#f5f5f7]" href="mailto:business@sportshub-ai.com">business@sportshub-ai.com</a></div></section>

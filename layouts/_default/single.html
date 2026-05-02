@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main id="main-content" class="section">
+  <article class="container">
+    <div class="mx-auto max-w-4xl">
+      <p class="eyebrow">{{ .Site.Title }}</p>
+      <h1 class="text-4xl md:text-5xl">{{ .Title }}</h1>
+      {{ with .Description }}
+        <p class="mt-5 text-lg leading-8 text-slate-600">{{ . }}</p>
+      {{ end }}
+      <div class="prose-sport mt-10">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+</main>
+{{ end }}

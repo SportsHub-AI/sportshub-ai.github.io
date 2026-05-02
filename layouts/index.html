@@ -1,0 +1,123 @@
+{{ define "main" }}
+{{ $isZh := eq .Site.Language.Lang "zh" }}
+{{ $productsURL := cond $isZh "/zh/products/" "/en/products/" }}
+{{ $contactURL := cond $isZh "/zh/contact/" "/en/contact/" }}
+{{ $companyURL := cond $isZh "/zh/company/" "/en/company/" }}
+<main id="main-content">
+  <section class="home-hero">
+    <div class="container relative py-20 text-center lg:py-28">
+      <p class="kicker justify-center">{{ if $isZh }}Sports performance intelligence{{ else }}Sports performance intelligence{{ end }}</p>
+      <h1 class="hero-title mx-auto max-w-6xl font-semibold leading-[0.88] text-[#1d1d1f]">
+        {{ if $isZh }}让运动表现，变得可见。{{ else }}Make performance visible.{{ end }}
+      </h1>
+      <p class="mx-auto mt-7 max-w-3xl text-xl leading-8 text-[#6e6e73]">
+          {{ if $isZh }}SportsHub.AI 用计算机视觉、可穿戴设备和职业赛事数据，把篮球、网球、足球训练转化为可执行的表现洞察。{{ else }}SportsHub.AI combines computer vision, wearables, and professional match data to turn basketball, tennis, and football training into actionable performance intelligence.{{ end }}
+      </p>
+      <div class="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
+        <a class="btn-primary" href="{{ $productsURL }}">{{ if $isZh }}查看解决方案{{ else }}Explore solutions{{ end }}</a>
+        <a class="btn-outline" href="{{ $contactURL }}">{{ if $isZh }}联系商务合作{{ else }}Contact sales{{ end }}</a>
+      </div>
+
+      <div class="hero-signal mt-14" aria-label="{{ if $isZh }}核心能力{{ else }}Core capabilities{{ end }}">
+        <div class="hero-signal-item">
+          <span>{{ if $isZh }}视频识别{{ else }}Video AI{{ end }}</span>
+          <strong>{{ if $isZh }}动作与事件结构化{{ else }}Actions to structured events{{ end }}</strong>
+        </div>
+        <div class="hero-signal-item">
+          <span>{{ if $isZh }}设备数据{{ else }}Device data{{ end }}</span>
+          <strong>{{ if $isZh }}负荷与位置追踪{{ else }}Load and location tracking{{ end }}</strong>
+        </div>
+        <div class="hero-signal-item">
+          <span>{{ if $isZh }}智能报告{{ else }}Intelligent reports{{ end }}</span>
+          <strong>{{ if $isZh }}训练建议自动生成{{ else }}Training guidance generated{{ end }}</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="score-strip">
+    <div class="score-strip-inner">
+      <div>{{ if $isZh }}AI 视频识别{{ else }}AI video recognition{{ end }}</div>
+      <div>{{ if $isZh }}GPS / 北斗追踪{{ else }}GPS / BeiDou tracking{{ end }}</div>
+      <div>{{ if $isZh }}自动化训练报告{{ else }}Automated training reports{{ end }}</div>
+    </div>
+  </div>
+
+  <section class="section bg-[#f5f5f7]" aria-labelledby="workflow-title">
+    <div class="container">
+      <div class="grid gap-8 lg:grid-cols-[0.7fr_1.3fr] lg:items-start">
+        <div>
+          <p class="kicker">{{ if $isZh }}Workflow{{ else }}Workflow{{ end }}</p>
+          <h2 id="workflow-title" class="text-4xl leading-tight md:text-6xl">{{ if $isZh }}从采集到决策，一个闭环{{ else }}From capture to decisions, one closed loop{{ end }}</h2>
+        </div>
+        <div class="capability-grid">
+          <article class="capability-cell"><span class="workflow-index">01</span><h3 class="mt-6 text-2xl">{{ if $isZh }}采集{{ else }}Capture{{ end }}</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}手机、摄像头、可穿戴设备和赛事数据统一接入。{{ else }}Phones, cameras, wearables, and match datasets feed one pipeline.{{ end }}</p></article>
+          <article class="capability-cell"><span class="workflow-index">02</span><h3 class="mt-6 text-2xl">{{ if $isZh }}识别{{ else }}Recognize{{ end }}</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}识别投篮、击球、跑动、事件和技术动作。{{ else }}Identify shots, strokes, runs, events, and technical actions.{{ end }}</p></article>
+          <article class="capability-cell"><span class="workflow-index">03</span><h3 class="mt-6 text-2xl">{{ if $isZh }}建模{{ else }}Model{{ end }}</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}计算负荷、趋势、战术执行和风险变化。{{ else }}Model workload, trends, tactical execution, and risk signals.{{ end }}</p></article>
+          <article class="capability-cell"><span class="workflow-index">04</span><h3 class="mt-6 text-2xl">{{ if $isZh }}行动{{ else }}Act{{ end }}</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}输出训练建议、复盘报告和团队管理依据。{{ else }}Deliver training actions, review reports, and team decisions.{{ end }}</p></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-white" aria-labelledby="solutions-title">
+    <div class="container">
+      <div class="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+        <div class="max-w-3xl">
+          <p class="kicker">{{ if $isZh }}Solutions{{ else }}Solutions{{ end }}</p>
+          <h2 id="solutions-title" class="text-4xl leading-tight md:text-6xl">{{ if $isZh }}产品不是罗列，而是不同训练场景的入口{{ else }}Products as entry points into different training environments{{ end }}</h2>
+        </div>
+        <a class="btn-outline" href="{{ $productsURL }}">{{ if $isZh }}查看全部{{ else }}View all{{ end }}</a>
+      </div>
+      <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <a class="solution-card" href="{{ cond $isZh "/zh/products/swish-app/" "/en/products/swish-app/" }}"><img src="/images/swish/swish-promo-1.jpg" alt="{{ if $isZh }}空心球 App 宣传图{{ else }}Swish Shot App promotional screen{{ end }}"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#0071e3]">Basketball</p><h3 class="mt-3 text-2xl">{{ if $isZh }}空心球 App{{ else }}Swish Shot App{{ end }}</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}手机即可完成投篮识别、训练记录和反馈。{{ else }}Shot recognition, training records, and feedback from a phone.{{ end }}</p></div></a>
+        <a class="solution-card" href="{{ cond $isZh "/zh/products/tennis-app/" "/en/products/tennis-app/" }}"><img src="/images/tennis-app.png" alt="{{ if $isZh }}AcePoint App 界面{{ else }}AcePoint App interface{{ end }}"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Tennis</p><h3 class="mt-3 text-2xl">AcePoint App</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}识别击球、落点、动作类型和关键视频。{{ else }}Recognize strokes, landing zones, action types, and key clips.{{ end }}</p></div></a>
+        <a class="solution-card" href="{{ cond $isZh "/zh/products/gps-device/" "/en/products/gps-device/" }}"><img src="/images/soccermind.png" alt="{{ if $isZh }}SoccerMind 产品展示{{ else }}SoccerMind product preview{{ end }}"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Football</p><h3 class="mt-3 text-2xl">SoccerMind</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}GPS/北斗追踪、团队负荷和足球表现分析。{{ else }}GPS/BeiDou tracking, team load, and football performance analytics.{{ end }}</p></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-band section" aria-labelledby="lab-title">
+    <div class="container relative grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
+      <div>
+        <p class="kicker text-[#7c8794]">{{ if $isZh }}Performance lab{{ else }}Performance lab{{ end }}</p>
+        <h2 id="lab-title" class="text-4xl leading-tight text-white md:text-6xl">{{ if $isZh }}把复杂数据变成教练看得懂的下一步{{ else }}Turn complex data into the next coaching action{{ end }}</h2>
+        <p class="mt-6 text-lg leading-8 text-slate-300">{{ if $isZh }}训练数据被识别、整理并转化为下一步建议，教练可以直接看到变化和行动方向。{{ else }}Training data is recognized, structured, and turned into next-step guidance so coaches can see what changed and what to do next.{{ end }}</p>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2">
+        <article class="lab-card"><img src="/images/football_data.png" alt="{{ if $isZh }}足球事件数据展示{{ else }}Football event data visualization{{ end }}" class="h-48 w-full rounded-md bg-white object-cover"><h3 class="mt-5 text-xl text-white">{{ if $isZh }}事件识别{{ else }}Event detection{{ end }}</h3><p class="mt-2 text-sm text-slate-300">{{ if $isZh }}定位关键事件、跑动区域和比赛节奏。{{ else }}Locate key events, movement zones, and match tempo.{{ end }}</p></article>
+        <article class="lab-card"><img src="/images/data-analysis.png" alt="{{ if $isZh }}自动化分析报告展示{{ else }}Automated analytics report preview{{ end }}" class="h-48 w-full rounded-md bg-white object-cover"><h3 class="mt-5 text-xl text-white">{{ if $isZh }}趋势报告{{ else }}Trend reports{{ end }}</h3><p class="mt-2 text-sm text-slate-300">{{ if $isZh }}把负荷、技术和风险变化汇总成报告。{{ else }}Summarize workload, technique, and risk changes into reports.{{ end }}</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-[#f5f5f7]" aria-labelledby="audience-title">
+    <div class="container grid gap-10 lg:grid-cols-[1fr_0.9fr] lg:items-center">
+      <div>
+        <p class="kicker">{{ if $isZh }}Who it serves{{ else }}Who it serves{{ end }}</p>
+        <h2 id="audience-title" class="text-4xl leading-tight md:text-6xl">{{ if $isZh }}既服务个人运动者，也服务专业组织{{ else }}Built for athletes and professional organizations{{ end }}</h2>
+        <div class="mt-8 grid gap-4 sm:grid-cols-2">
+          <article class="audience-card"><h3 class="text-xl">{{ if $isZh }}运动员{{ else }}Athletes{{ end }}</h3><p class="mt-2 text-sm text-[#536170]">{{ if $isZh }}记录训练和技术变化。{{ else }}Track training and technical change.{{ end }}</p></article>
+          <article class="audience-card"><h3 class="text-xl">{{ if $isZh }}教练团队{{ else }}Coaches{{ end }}</h3><p class="mt-2 text-sm text-[#536170]">{{ if $isZh }}获得复盘和训练安排依据。{{ else }}Get review and planning evidence.{{ end }}</p></article>
+          <article class="audience-card"><h3 class="text-xl">{{ if $isZh }}俱乐部/青训{{ else }}Clubs / academies{{ end }}</h3><p class="mt-2 text-sm text-[#536170]">{{ if $isZh }}建立长期团队数据库。{{ else }}Build long-term team databases.{{ end }}</p></article>
+          <article class="audience-card"><h3 class="text-xl">{{ if $isZh }}赛事/科研{{ else }}Events / research{{ end }}</h3><p class="mt-2 text-sm text-[#536170]">{{ if $isZh }}获得标准化数据资产。{{ else }}Access standardized data assets.{{ end }}</p></article>
+        </div>
+      </div>
+      <figure class="rounded-lg border border-[#dfe5df] bg-white p-3 shadow-[0_24px_75px_rgba(8,17,31,0.08)]">
+        <img src="/images/team.jpg" alt="{{ if $isZh }}SportsHub.AI 团队{{ else }}SportsHub.AI team{{ end }}" class="w-full rounded-md">
+        <figcaption class="p-5 text-sm leading-6 text-[#536170]">{{ if $isZh }}SportsHub.AI 由速行（深圳）人工智能有限公司打造，专注 AI 运动数据分析和训练工具研发。{{ else }}SportsHub.AI is built by Suxing (Shenzhen) Artificial Intelligence Co., Ltd., focused on AI sports analytics and training tools.{{ end }}</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section-tight bg-[#f5f5f7] text-[#1d1d1f]">
+    <div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+      <div>
+        <h2 class="text-4xl leading-tight text-[#1d1d1f]">{{ if $isZh }}准备重新理解你的训练数据？{{ else }}Ready to rethink your training data?{{ end }}</h2>
+        <p class="mt-3 text-[#6e6e73]">{{ if $isZh }}联系我们获取试用、定制方案或数据合作信息。{{ else }}Contact us for trials, custom solutions, or data partnerships.{{ end }}</p>
+      </div>
+      <a class="btn-secondary" href="{{ $contactURL }}">{{ if $isZh }}联系 SportsHub.AI{{ else }}Contact SportsHub.AI{{ end }}</a>
+    </div>
+  </section>
+</main>
+{{ end }}

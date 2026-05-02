@@ -1,0 +1,5 @@
+<section class="{{ .Get "class" | default "section bg-white" }}">
+  <div class="container">
+    {{ .Inner | markdownify }}
+  </div>
+</section>

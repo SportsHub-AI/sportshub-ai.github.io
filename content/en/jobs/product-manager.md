@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Product Manager"
 date: 2023-11-14
 description: "We're seeking a Product Manager to drive our product strategy and roadmap"

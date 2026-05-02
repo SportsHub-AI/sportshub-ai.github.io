@@ -1,60 +1,13 @@
 ---
 title: "Team Sports Data Collection"
-description: "Team Sports Data Collection"
+description: "Standardized data collection for team sports training and matches using computer vision and wearable devices."
 layout: "company"
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h2 class="text-4xl font-bold mb-6">Team Sports Data Collection</h2>
-  <p class="text-xl text-gray-600">An AI-powered data collection system for team sports training, capturing every detail with precision.</p>
-</div>
+<section class="section bg-white"><div class="container grid gap-12 lg:grid-cols-[0.9fr_1fr] lg:items-center"><div><p class="eyebrow">Team data capture</p><h1 class="text-4xl md:text-6xl">Team Sports Data Collection</h1><p class="mt-6 text-lg leading-8 text-slate-600">An AI-powered team sports data system that combines visual recognition and hardware capture to record key details across training, matches, and events.</p><div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="btn-primary" href="/en/contact/">Discuss deployment</a><a class="btn-outline" href="/en/products/">Back to solutions</a></div></div><div class="dark-panel"><img src="/images/data-collection.png" alt="Team sports data collection system" class="rounded-md bg-white"></div></div></section>
 
-<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start px-4 md:px-0 mt-12">
-  <div>
-    <h3 class="text-2xl font-bold mb-4">Key Features</h3>
-    <ul class="list-disc list-inside text-gray-700 text-lg space-y-3">
-      <li>Combines computer vision and wearable devices for high-precision player tracking and action recognition</li>
-      <li>Multi-dimensional data collection covering physical workload, technical skills, tactical execution, and more</li>
-      <li>Supports both training and competitive scenarios, deployable without expensive infrastructure</li>
-      <li>All-in-one data platform, delivering instant and comprehensive insights</li>
-    </ul>
-  </div>
-  <div>
-    <img src="/images/data-collection.png" alt="TeamTrack App Preview" class="rounded-xl shadow-md" />
-  </div>
-</div>
-{{< /section-container >}}
+<section class="section bg-slate-50"><div class="container grid gap-6 md:grid-cols-2 lg:grid-cols-4"><div class="card"><h2 class="text-lg">Player tracking</h2><p class="mt-2 text-sm text-slate-600">High-precision tracking through computer vision and wearables.</p></div><div class="card"><h2 class="text-lg">Action recognition</h2><p class="mt-2 text-sm text-slate-600">Capture skills, tactical execution, and match events.</p></div><div class="card"><h2 class="text-lg">Light deployment</h2><p class="mt-2 text-sm text-slate-600">Works for training and match scenarios without heavy infrastructure.</p></div><div class="card"><h2 class="text-lg">One platform</h2><p class="mt-2 text-sm text-slate-600">Capture, manage, present, and report data in one workflow.</p></div></div></section>
 
-{{< section-container class="py-20 bg-gray-50" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Who It's For</h3>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 text-left">
-    <div>
-      <h4 class="font-bold text-xl mb-2">Professional Clubs</h4>
-      <p class="text-gray-600">Comprehensive data collection for training and matches, enhancing tactical execution and player condition management.</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Universities / Youth Academies</h4>
-      <p class="text-gray-600">Build intelligent training centers, support the scientific development of young athletes.</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Sports Researchers</h4>
-      <p class="text-gray-600">Collect standardized training data to foster interdisciplinary research and innovation.</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Event Organizers</h4>
-      <p class="text-gray-600">Provide personalized data analysis services to enrich the watching experience and improve event operations.</p>
-    </div>
-  </div>
-</div>
+<section class="section bg-white"><div class="container"><p class="eyebrow">Organizations</p><h2 class="max-w-3xl text-3xl md:text-5xl">For clubs, universities, researchers, and event scenarios</h2><div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4"><div class="card"><h3 class="text-xl">Professional clubs</h3><p class="mt-3 text-sm leading-6 text-slate-600">Improve tactical execution and player condition management.</p></div><div class="card"><h3 class="text-xl">Universities and academies</h3><p class="mt-3 text-sm leading-6 text-slate-600">Build intelligent training centers for youth development.</p></div><div class="card"><h3 class="text-xl">Sports researchers</h3><p class="mt-3 text-sm leading-6 text-slate-600">Collect standardized training data for interdisciplinary research.</p></div><div class="card"><h3 class="text-xl">Event organizers</h3><p class="mt-3 text-sm leading-6 text-slate-600">Deliver personalized analytics and richer viewing experiences.</p></div></div></div></section>
 
-{{< /section-container >}}
-
-{{< section-container class="py-20" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Learn More</h3>
-  <p class="text-xl text-gray-600 mb-4">For product trials, pricing, or business collaboration, please contact us via:</p>
-  <p class="text-lg text-primary-600 font-semibold">📧 business@sportshub-ai.com</p>
-</div>
-{{< /section-container >}}
+<section class="section-tight bg-[#1d1d1f] text-white"><div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between"><div><h2 class="text-3xl text-white">Plan your team data capture system</h2><p class="mt-3 text-slate-300">Tell us your sport, venue, and data goals.</p></div><a class="btn bg-white text-[#1d1d1f] hover:bg-[#f5f5f7]" href="mailto:business@sportshub-ai.com">business@sportshub-ai.com</a></div></section>

@@ -1,97 +1,31 @@
 ---
-title: 首页
-_build:
-  render: always
-  list: never
-client_logos:
-  - name: "客户 A"
-    logo: "/images/logos/customer-1.png"
-  - name: "客户 B"
-    logo: "/images/logos/customer-2.png"
-  - name: "客户 C"
-    logo: "/images/logos/customer-3.png"
-  - name: "客户 D"
-    logo: "/images/logos/customer-4.png"
-  - name: "客户 E"
-    logo: "/images/logos/customer-5.png"
-testimonials:
-  - name: "张伟"
-    title: "TechStartup 技术总监"
-    avatar: "/images/testimonial-1.svg"
-    quote: "我们用这个主题快速上线了公司官网，加载速度非常快，客户反馈也很棒。"
-  - name: "李娜"
-    title: "WebFlow 创始人"
-    avatar: "/images/testimonial-1.svg"
-    quote: "Hugo 与 TailwindCSS 的组合让我们的网站性能飞快，转化率显著提升。"
-  - name: "王强"
-    title: "CloudTech 高级开发"
-    avatar: "/images/testimonial-1.svg"
-    quote: "这个主题代码干净，结构清晰，很适合开发团队使用。"
+title: Solutions
+description: "AI sports data products for athletes, coaches, clubs, events, and researchers."
 ---
 
-{{< hero 
-  headline="激发你的运动潜力"
-  sub_headline="每一份努力都值得被看见，我们帮你记录成长，见证进步。"
-  primary_button_text="免费下载 App"
-  primary_button_url="#"
-  secondary_button_text="观看演示"
-  secondary_button_url="#"
-  hero_image="/images/home_demo.png"
-  gradient-from="#dbeafe"
-  gradient-to="#f3e8ff"
-  gradient-angle="180"
->}}
+<section class="section bg-[#f5f5f7]">
+  <div class="container">
+    <div class="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
+      <div><p class="kicker">Solutions</p><h1 class="text-5xl leading-[0.95] md:text-7xl">Six product lines for six sports data scenarios</h1></div>
+      <p class="max-w-2xl text-lg leading-8 text-[#536170]">From consumer apps to team capture, automated analytics, and professional databases, SportsHub.AI helps organizations build performance intelligence.</p>
+    </div>
+  </div>
+</section>
 
-<!-- {{< client-logos animate="true" >}} -->
+<section class="section bg-white">
+  <div class="container grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <a class="solution-card" href="/en/products/swish-app/"><img src="/images/swish/swish-promo-1.jpg" alt="Swish Shot App promotional screen"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#0071e3]">Basketball</p><h2 class="mt-3 text-2xl">Swish Shot App</h2><p class="mt-3 text-sm leading-6 text-[#536170]">Basketball shot recognition, training records, personalized reports, and community connection.</p></div></a>
+    <a class="solution-card" href="/en/products/tennis-app/"><img src="/images/tennis-app.png" alt="AcePoint App interface"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Tennis</p><h2 class="mt-3 text-2xl">AcePoint App</h2><p class="mt-3 text-sm leading-6 text-[#536170]">AI analysis of tennis strokes, landing zones, action types, and match clips.</p></div></a>
+    <a class="solution-card" href="/en/products/gps-device/"><img src="/images/soccermind.png" alt="SoccerMind product"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Football</p><h2 class="mt-3 text-2xl">SoccerMind</h2><p class="mt-3 text-sm leading-6 text-[#536170]">Football performance tracking with GPS/BeiDou, workload analysis, and AI reports.</p></div></a>
+    <a class="solution-card" href="/en/products/data-collection/"><img src="/images/data-collection.png" alt="Team sports data collection"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Capture</p><h2 class="mt-3 text-2xl">Team data collection</h2><p class="mt-3 text-sm leading-6 text-[#536170]">Collect team training and match data with computer vision and hardware devices.</p></div></a>
+    <a class="solution-card" href="/en/products/data-analysis/"><img src="/images/data-analysis.png" alt="Automated data analytics"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Analytics</p><h2 class="mt-3 text-2xl">Automated analytics</h2><p class="mt-3 text-sm leading-6 text-[#536170]">Structured performance analytics for coaches, researchers, and decision-makers.</p></div></a>
+    <a class="solution-card" href="/en/products/database/"><img src="/images/football_data.png" alt="Professional sports database"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Database</p><h2 class="mt-3 text-2xl">Professional database</h2><p class="mt-3 text-sm leading-6 text-[#536170]">Professional basketball and football data resources for research and product development.</p></div></a>
+  </div>
+</section>
 
-<!-- {{< features-section 
-  title="功能强大，助力网站"
-  description="看看我们的系统如何帮助你构建一个快速、优雅、实用的产品官网。"
->}}
-
-{{< feature
-  title="极速构建体验"
-  description="Hugo 的构建速度极快，页面秒开，为用户带来优质体验。"
-  badge="性能"
-  badgeColor="#2563eb"
-  image="/images/feature-1.svg"
-  buttonText="了解更多"
-  buttonLink="/features/performance/"
-  features="极速加载, 资源优化, 轻量 JS, 支持 CDN"
-  imagePosition="right"
->}}
-
-{{< feature
-  title="美观设计系统"
-  description="内置 TailwindCSS，轻松搭建响应式、高可定制的前端页面。"
-  badge="设计"
-  badgeColor="#7c3aed"
-  image="/images/feature-2.svg"
-  buttonText="了解更多"
-  buttonLink="/features/design-system/"
-  features="现代组件, 响应式布局, 自定义排版, 灵活结构"
-  imagePosition="left"
->}}
-
-{{< feature
-  title="开发者友好"
-  description="热重载、组件化架构、可维护代码，让开发更高效。"
-  badge="开发"
-  badgeColor="#16a34a"
-  image="/images/feature-3.svg"
-  buttonText="了解更多"
-  buttonLink="/features/developer-experience/"
-  features="模块化结构, 易于定制, 代码整洁, 文档完善"
-  imagePosition="right"
->}}
-
-{{< /features-section >}} 
-
-{{< testimonials 
-  title="深受信赖的团队选择"
-  description="看看大家是如何用我们的系统搭建高质量网站。"
-  animate="true"
-  background-color="#f1f5f9"
->}}
-
-{{< cta >}} -->
+<section class="section-tight bg-[#f5f5f7]">
+  <div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+    <div><h2 class="text-4xl text-[#08111f]">Need a custom team solution?</h2><p class="mt-3 text-[#344255]">We can configure the solution around your sport, capture environment, and business goals.</p></div>
+    <a class="btn-secondary" href="/en/contact/">Contact sales</a>
+  </div>
+</section>

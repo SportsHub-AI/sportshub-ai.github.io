@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Content Management in Hugo: Best Practices"
 date: 2023-07-24
 author: "Michael Park"

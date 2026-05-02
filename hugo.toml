@@ -1,15 +1,18 @@
 baseURL = "/"
-languageCode = "zh-cn"
+locale = "zh-cn"
 title = "SportsHub.AI"
-theme = "hugo-saasify-theme"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
+ignoreFiles = [
+  "^content/(zh|en)/(blog|features|jobs)/",
+  "^content/(zh|en)/(careers|pricing)\\.md$"
+]
 
 # 语言定义
 
 [languages.en]
   weight = 2
-  languageName = "English"
+  label = "English"
   contentDir = "content/en"
   lang = "en"
 
@@ -76,7 +79,7 @@ defaultContentLanguageInSubdir = true
 
 [languages.zh]
   weight = 1
-  languageName = "简体中文"
+  label = "简体中文"
   contentDir = "content/zh"
   lang = "zh"
 
@@ -171,9 +174,9 @@ enableGitInfo = true
 
 # Theme Parameters (共享参数，可在 zh/en 各自语言内容中重写)
 [params]
-  description = "Your site description"
-  author = "Your Name"
-  logo = "/images/company-logo.jpeg"
+  description = "AI-powered sports data analysis and training products."
+  author = "SportsHub.AI"
+  logo = "/images/brand/sportshubai-black.png"
 
   googleAnalytics = "G-XXXXXXXXXX"
 
@@ -182,7 +185,7 @@ enableGitInfo = true
     border = "border-b border-gray-100"
 
     [params.header.logo]
-      src = "/images/company-logo.jpeg"
+      src = "/images/brand/sportshubai-black.png"
 
     #[params.header.buttons]
     #  [params.header.buttons.getStarted]
@@ -191,14 +194,14 @@ enableGitInfo = true
 
   [params.cta]
     enable = true
-    title = "准备开始了吗？"
-    description = "加入使用我们平台的企业"
+    title = "准备重新理解训练数据？"
+    description = "联系 SportsHub.AI 获取产品试用、团队部署或数据合作信息。"
     [params.cta.primary_button]
-      text = "免费开始"
-      url = "#"
+      text = "联系我们"
+      url = "/zh/contact/"
     [params.cta.secondary_button]
-      text = "预约演示"
-      url = "#"
+      text = "查看解决方案"
+      url = "/zh/products/"
 
   [params.social]
     # linkedin = "https://linkedin.com/in/yourusername"

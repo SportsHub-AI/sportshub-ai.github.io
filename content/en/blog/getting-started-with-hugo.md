@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Getting Started with Hugo: A Beginner's Guide"
 date: 2023-07-20
 author: "John Doe"

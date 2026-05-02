@@ -1,0 +1,6 @@
+{{ $lang := .Get 0 | default "text" }}
+{{ $label := .Get 1 }}
+<figure class="not-prose my-8 overflow-hidden rounded-lg border border-slate-200 bg-ink-900">
+  {{ with $label }}<figcaption class="border-b border-white/10 px-4 py-2 text-sm text-slate-300">{{ . }}</figcaption>{{ end }}
+  <pre class="overflow-x-auto p-4 text-sm text-slate-100"><code class="language-{{ $lang }}">{{ .Inner }}</code></pre>
+</figure>

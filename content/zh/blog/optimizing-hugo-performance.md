@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Optimizing Hugo Performance: Speed Up Your Site"
 date: 2023-07-23
 author: "Sarah Chen"

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Senior Frontend Developer"
 date: 2023-11-14
 description: "Join our team as a Senior Frontend Developer and help build the next generation of our SaaS platform"

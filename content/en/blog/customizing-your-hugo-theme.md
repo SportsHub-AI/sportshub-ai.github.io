@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Customizing Your Hugo Theme: A Deep Dive"
 date: 2023-07-21
 author: "Jane Smith"

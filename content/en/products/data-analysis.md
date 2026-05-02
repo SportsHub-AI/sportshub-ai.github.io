@@ -1,57 +1,13 @@
 ---
-title: "Automated Data Analysis"
-description: "Automated performance analytics services"
+title: "Automated Data Analytics"
+description: "AI-powered performance analytics for coaches, researchers, and decision-makers."
 layout: "company"
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h2 class="text-4xl font-bold mb-6">Automated Data Analytics Services</h2>
-  <p class="text-xl text-gray-600">AI-powered performance analytics to support smarter decisions.</p>
-</div>
+<section class="section bg-white"><div class="container grid gap-12 lg:grid-cols-[0.9fr_1fr] lg:items-center"><div><p class="eyebrow">Automated analytics</p><h1 class="text-4xl md:text-6xl">Automated Data Analytics Services</h1><p class="mt-6 text-lg leading-8 text-slate-600">Machine learning and structured sports data generate post-match reviews, training adjustments, opponent research, and risk trend reports for smarter decisions.</p><div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="btn-primary" href="/en/contact/">Discuss analytics</a><a class="btn-outline" href="/en/products/">Back to solutions</a></div></div><div class="dark-panel"><img src="/images/data-analysis.png" alt="Automated performance analytics report" class="rounded-md bg-white"></div></div></section>
 
-<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start px-4 md:px-0 mt-12">
-  <div>
-    <h3 class="text-2xl font-bold mb-4">Our Services</h3>
-    <ul class="list-disc list-inside text-gray-700 text-lg space-y-3">
-      <li>Machine learning-based evaluation and trend analysis of player performance</li>
-      <li>Key metrics include tactical execution, quality of technical actions, physical load curves, and fluctuations in match tempo and intensity</li>
-      <li>Multi-level comparisons for individuals and teams—ideal for post-match reviews, training adjustments, and opponent analysis</li>
-      <li>Integrated predictive models for identifying fatigue risks, injury trends, and match outcome tendencies</li>
-      <li>Clear and intuitive analysis tailored for coaching staff, researchers, and decision-makers</li>
-    </ul>
-  </div>
-  <div>
-    <img src="/images/data-analysis.png" alt="Performance Analysis Preview" class="rounded-xl shadow-md" />
-  </div>
-</div>
+<section class="section bg-slate-50"><div class="container grid gap-6 md:grid-cols-2 lg:grid-cols-4"><div class="card"><h2 class="text-lg">Performance evaluation</h2><p class="mt-2 text-sm text-slate-600">Structure player performance and long-term trends.</p></div><div class="card"><h2 class="text-lg">Multi-metric coverage</h2><p class="mt-2 text-sm text-slate-600">Cover tactical execution, technical actions, and workload.</p></div><div class="card"><h2 class="text-lg">Team comparison</h2><p class="mt-2 text-sm text-slate-600">Analyze individuals, teams, and opponents at multiple levels.</p></div><div class="card"><h2 class="text-lg">Predictive models</h2><p class="mt-2 text-sm text-slate-600">Identify fatigue risks, injury trends, and match tendencies.</p></div></div></section>
 
-{{< /section-container >}}
+<section class="section bg-white"><div class="container"><p class="eyebrow">Decision support</p><h2 class="max-w-3xl text-3xl md:text-5xl">Give coaches, researchers, and operators clear analysis quickly</h2><div class="mt-10 grid gap-5 md:grid-cols-3"><div class="card"><h3 class="text-xl">Professional clubs</h3><p class="mt-3 text-sm leading-6 text-slate-600">Evaluate player performance, tactical execution, and match outcomes.</p></div><div class="card"><h3 class="text-xl">Academies and universities</h3><p class="mt-3 text-sm leading-6 text-slate-600">Track young athlete potential and development paths.</p></div><div class="card"><h3 class="text-xl">Events and leagues</h3><p class="mt-3 text-sm leading-6 text-slate-600">Provide key event tracking and match trend analysis.</p></div></div></div></section>
 
-{{< section-container class="py-20 bg-gray-50" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Who It's For</h3>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-left">
-    <div>
-      <h4 class="font-bold text-xl mb-2">Professional Clubs</h4>
-      <p class="text-gray-600">Evaluate player performance, tactical execution, and match results with multidimensional data to guide training and in-game strategies.</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Academies & Universities</h4>
-      <p class="text-gray-600">Track young athletes’ development through dynamic performance monitoring in both training and matches, uncovering potential and growth paths.</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Event Organizers & Leagues</h4>
-      <p class="text-gray-600">Deliver data-driven match reports featuring key event tracking and trend prediction, enhancing both operations and audience engagement.</p>
-    </div>
-  </div>
-</div>
-{{< /section-container >}}
-
-{{< section-container class="py-20" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
-  <p class="text-xl text-gray-600 mb-4">For trials, custom plans, or partnership inquiries, please contact us:</p>
-  <p class="text-lg text-primary-600 font-semibold">📧 business@sportshub-ai.com</p>
-</div>
-{{< /section-container >}}
+<section class="section-tight bg-[#1d1d1f] text-white"><div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between"><div><h2 class="text-3xl text-white">Request an analytics sample</h2><p class="mt-3 text-slate-300">We can discuss data sources, report metrics, and delivery format.</p></div><a class="btn bg-white text-[#1d1d1f] hover:bg-[#f5f5f7]" href="mailto:business@sportshub-ai.com">business@sportshub-ai.com</a></div></section>

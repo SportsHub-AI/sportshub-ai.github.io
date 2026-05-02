@@ -1,56 +1,52 @@
 ---
-title: "Swish App - AI-driven Basketball Training"
-description: "An AI-powered basketball training analysis tool to improve your shooting skills and athletic performance."
+title: "Swish Shot App"
+description: "AI-powered basketball training app for shot recognition, training records, and personalized feedback."
 layout: "company"
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h2 class="text-4xl font-bold mb-6">Swish Shot App</h2>
-  <p class="text-xl text-gray-600">An AI-powered intelligent basketball training tool that helps every player improve with precision.</p>
-</div>
-
-<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start px-4 md:px-0 mt-12">
-  <div>
-    <h3 class="text-2xl font-bold mb-4">App Highlights</h3>
-    <ul class="list-disc list-inside text-gray-700 text-lg space-y-3">
-      <li>Real-time recognition of shooting actions and player positions by AI, automatically capturing highlight moments</li>
-      <li>Personalized training data analysis with detailed technical and physical training reports</li>
-      <li>Accessible directly via mobile phone to record training anytime, anywhere</li>
-      <li>Vibrant basketball community to instantly find nearby teams and events</li>
-    </ul>
+<section class="section bg-[#fbfbfd]">
+  <div class="container text-center">
+    <p class="kicker justify-center">Swish Shot</p>
+    <h1 class="mx-auto max-w-5xl text-[clamp(3.4rem,8vw,7.5rem)] font-semibold leading-[0.9] text-[#1d1d1f]">Feedback for every shot.</h1>
+    <p class="mx-auto mt-7 max-w-3xl text-xl leading-8 text-[#6e6e73]">Swish Shot uses AI to recognize shot motion, location, and training clips, turning basketball practice into something reviewable, trackable, and improvable.</p>
+    <div class="mt-9 flex flex-col justify-center gap-3 sm:flex-row"><a class="btn-primary" href="/en/contact/">Request trial info</a><a class="btn-outline" href="/en/products/">Back to solutions</a></div>
   </div>
-  <div>
-    <img src="/images/swish-view.png" alt="Swish App Preview" class="rounded-xl shadow-md" />
-  </div>
-</div>
-{{< /section-container >}}
-
-{{< section-container class="py-20 bg-gray-50" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Who It's For</h3>
-  <p class="text-xl text-gray-600 mb-6">Whether you're an amateur or a professional athlete, Swish Shot can be your ideal training assistant.</p>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-left">
-    <div>
-      <h4 class="font-bold text-xl mb-2">Youth Athletes</h4>
-      <p class="text-gray-600">Receive data feedback to improve the skills.</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Coaching Teams</h4>
-      <p class="text-gray-600">Make scientific training plans and manage team performance quantitatively.</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Casual Players</h4>
-      <p class="text-gray-600">Start intelligent training easily with your smart phone and track your growth over time.</p>
+  <div class="container mt-16">
+    <div class="grid items-end gap-4 md:grid-cols-5">
+      <figure class="swish-phone md:translate-y-10"><img src="/images/swish/swish-promo-1.jpg" alt="Swish Shot App promotional screen 1"></figure>
+      <figure class="swish-phone md:translate-y-4"><img src="/images/swish/swish-promo-2.jpg" alt="Swish Shot App promotional screen 2"></figure>
+      <figure class="swish-phone"><img src="/images/swish/swish-promo-3.jpg" alt="Swish Shot App promotional screen 3"></figure>
+      <figure class="swish-phone md:translate-y-4"><img src="/images/swish/swish-promo-4.jpg" alt="Swish Shot App promotional screen 4"></figure>
+      <figure class="swish-phone md:translate-y-10"><img src="/images/swish/swish-promo-5.jpg" alt="Swish Shot App promotional screen 5"></figure>
     </div>
   </div>
-</div>
-{{< /section-container >}}
+</section>
 
-{{< section-container class="py-20" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Learn More</h3>
-  <p class="text-xl text-gray-600 mb-4">To request a trial, pricing information, or business collaboration, please contact us:</p>
-  <p class="text-lg text-primary-600 font-semibold">📧 business@sportshub-ai.com</p>
-</div>
-{{< /section-container >}}
+<section class="section bg-white">
+  <div class="container">
+    <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+      <div><p class="kicker">Training intelligence</p><h2 class="text-4xl leading-tight md:text-6xl">Complex recognition stays in the background. Feedback stays immediate.</h2></div>
+      <div class="capability-grid">
+        <article class="capability-cell"><span class="text-5xl font-semibold text-[#0071e3]">01</span><h3 class="mt-6 text-2xl">Shot recognition</h3><p class="mt-3 text-sm leading-6 text-[#6e6e73]">Recognize shot motion, location, and training clips in real time.</p></article>
+        <article class="capability-cell"><span class="text-5xl font-semibold text-[#0071e3]">02</span><h3 class="mt-6 text-2xl">Training records</h3><p class="mt-3 text-sm leading-6 text-[#6e6e73]">Turn daily shooting sessions into a reviewable growth timeline.</p></article>
+        <article class="capability-cell"><span class="text-5xl font-semibold text-[#0071e3]">03</span><h3 class="mt-6 text-2xl">Personal reports</h3><p class="mt-3 text-sm leading-6 text-[#6e6e73]">Provide technical and physical feedback for staged improvement.</p></article>
+        <article class="capability-cell"><span class="text-5xl font-semibold text-[#0071e3]">04</span><h3 class="mt-6 text-2xl">Community</h3><p class="mt-3 text-sm leading-6 text-[#6e6e73]">Help users discover nearby teams, events, and partners.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-[#f5f5f7]">
+  <div class="container grid gap-6 md:grid-cols-3">
+    <article class="card"><h3 class="text-2xl">Youth athletes</h3><p class="mt-3 text-sm leading-6 text-[#6e6e73]">Use data feedback to improve mechanics and skill growth.</p></article>
+    <article class="card"><h3 class="text-2xl">Coaching teams</h3><p class="mt-3 text-sm leading-6 text-[#6e6e73]">Support scientific training decisions and team management.</p></article>
+    <article class="card"><h3 class="text-2xl">Basketball enthusiasts</h3><p class="mt-3 text-sm leading-6 text-[#6e6e73]">Record training with a phone and track progress over time.</p></article>
+  </div>
+</section>
+
+<section class="section-tight bg-[#1d1d1f] text-white">
+  <div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+    <div><h2 class="text-4xl text-white">Learn more about Swish Shot</h2><p class="mt-3 text-slate-300">Contact us for trials, pricing, or partnerships.</p></div>
+    <a class="btn bg-white text-[#1d1d1f] hover:bg-[#f5f5f7]" href="mailto:business@sportshub-ai.com">business@sportshub-ai.com</a>
+  </div>
+</section>

@@ -1,12 +1,13 @@
 {
-  "name": "hugo-sassify-theme",
+  "name": "sportshub-web",
   "version": "1.0.0",
-  "description": "A modern Hugo theme for SaaS websites",
-  "author": "Chaoming Li",
+  "description": "SportsHub.AI company website",
+  "author": "SportsHub.AI",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npx tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
-    "build": "tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify"
+    "start": "concurrently \"npx tailwindcss -i assets/css/main.css -o static/css/style.css --watch\" \"node scripts/hugo.mjs server -D\"",
+    "build": "tailwindcss -i assets/css/main.css -o static/css/style.css --minify && node scripts/hugo.mjs --minify --cleanDestinationDir",
+    "build:css": "tailwindcss -i assets/css/main.css -o static/css/style.css --minify"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",

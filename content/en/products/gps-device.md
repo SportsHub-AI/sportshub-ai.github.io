@@ -1,57 +1,13 @@
 ---
 title: "SoccerMind: Football Performance Analysis System"
-description: "A wearable-device-based football performance analysis system that comprehensively records players’ match performance and physical data."
+description: "Football performance analysis with GPS/BeiDou positioning, AI reports, player tracking, speed, acceleration, and workload data."
 layout: "company"
 ---
 
-{{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-28" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h2 class="text-4xl font-bold mb-6">SoccerMind: Football Performance Analysis System</h2>
-  <p class="text-xl text-gray-600">A wearable-device-based football performance analysis system that comprehensively records players’ match performance and physical data.
-  </p>
-</div>
+<section class="section bg-white"><div class="container grid gap-12 lg:grid-cols-[0.9fr_1fr] lg:items-center"><div><p class="eyebrow">Football performance</p><h1 class="text-4xl md:text-6xl">SoccerMind Football Performance Analysis System</h1><p class="mt-6 text-lg leading-8 text-slate-600">Built for football clubs, academies, and event scenarios, SoccerMind records player performance and physical data with high-precision positioning and AI reports.</p><div class="mt-8 flex flex-col gap-3 sm:flex-row"><a class="btn-primary" href="/en/contact/">Discuss team solution</a><a class="btn-outline" href="/en/products/">Back to solutions</a></div></div><div class="dark-panel"><img src="/images/soccermind.png" alt="SoccerMind football performance system" class="rounded-md bg-white"></div></div></section>
 
-<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start px-4 md:px-0 mt-12">
-  <div>
-    <h3 class="text-2xl font-bold mb-4">Product Highlights</h3>
-    <ul class="list-disc list-inside text-gray-700 text-lg space-y-3">
-      <li>GPS + BeiDou dual-mode high-precision positioning technology for real-time tracking of player location and movement trajectory</li>
-      <li>Multi-dimensional data collection covering speed, acceleration, heart rate, and other key metrics</li>
-      <li>Convenient data synchronization and management with cloud storage and multi-device access</li>
-      <li>AI-driven professional analysis reports to help coaches design scientific training plans</li>
-    </ul>
-  </div>
-  <div>
-    <img src="/images/soccermind.png" alt="Football GPS Preview" class="rounded-xl shadow-md" />
-  </div>
-</div>
-{{< /section-container >}}
+<section class="section bg-slate-50"><div class="container grid gap-6 md:grid-cols-2 lg:grid-cols-4"><div class="card"><h2 class="text-lg">Dual positioning</h2><p class="mt-2 text-sm text-slate-600">GPS+BeiDou tracking for player location and movement paths.</p></div><div class="card"><h2 class="text-lg">Multi-metric data</h2><p class="mt-2 text-sm text-slate-600">Cover speed, acceleration, heart rate, and workload.</p></div><div class="card"><h2 class="text-lg">Cloud management</h2><p class="mt-2 text-sm text-slate-600">Support sync, team management, and multi-device access.</p></div><div class="card"><h2 class="text-lg">AI reports</h2><p class="mt-2 text-sm text-slate-600">Support training planning and post-match review.</p></div></div></section>
 
-{{< section-container class="py-20 bg-gray-50" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Target Users</h3>
-  <p class="text-xl text-gray-600 mb-6">From professional teams to youth academies, our AI-based performance analysis helps you elevate football performance across all levels.</p>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-left">
-    <div>
-      <h4 class="font-bold text-xl mb-2">Professional Athletes</h4>
-      <p class="text-gray-600">Aggregate player profiles through big data to identify strengths and improve weaknesses</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Youth Players</h4>
-      <p class="text-gray-600">Compare development trajectories to design personalized, scientific training programs</p>
-    </div>
-    <div>
-      <h4 class="font-bold text-xl mb-2">Football Clubs</h4>
-      <p class="text-gray-600">Real-time team performance and physical data analysis to enhance tactical adaptability</p>
-    </div>
-  </div>
-</div>
-{{< /section-container >}}
+<section class="section bg-white"><div class="container"><p class="eyebrow">Team scenarios</p><h2 class="max-w-3xl text-3xl md:text-5xl">Build a performance database for clubs and academies</h2><div class="mt-10 grid gap-5 md:grid-cols-3"><div class="card"><h3 class="text-xl">Professional athletes</h3><p class="mt-3 text-sm leading-6 text-slate-600">Summarize player characteristics and target improvements.</p></div><div class="card"><h3 class="text-xl">Youth athletes</h3><p class="mt-3 text-sm leading-6 text-slate-600">Compare growth paths and plan training scientifically.</p></div><div class="card"><h3 class="text-xl">Football clubs</h3><p class="mt-3 text-sm leading-6 text-slate-600">Analyze team performance and workload to improve match response.</p></div></div></div></section>
 
-{{< section-container class="py-20" >}}
-<div class="max-w-4xl mx-auto text-center">
-  <h3 class="text-3xl font-bold mb-6">Learn More</h3>
-  <p class="text-xl text-gray-600 mb-4">For product trials, pricing, or business collaboration, please contact us at:</p>
-  <p class="text-lg text-primary-600 font-semibold">📧 business@sportshub-ai.com</p>
-</div>
-{{< /section-container >}}
+<section class="section-tight bg-[#1d1d1f] text-white"><div class="container flex flex-col gap-6 md:flex-row md:items-center md:justify-between"><div><h2 class="text-3xl text-white">Learn more about SoccerMind</h2><p class="mt-3 text-slate-300">Contact us for trials, pricing, or partnerships.</p></div><a class="btn bg-white text-[#1d1d1f] hover:bg-[#f5f5f7]" href="mailto:business@sportshub-ai.com">business@sportshub-ai.com</a></div></section>

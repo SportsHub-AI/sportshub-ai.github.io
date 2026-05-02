@@ -1,0 +1,7 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<link rel="icon" type="image/png" href="{{ "images/brand/sportshubai-black.png" | relURL }}">
+<link rel="apple-touch-icon" href="{{ "images/brand/sportshubai-black.png" | relURL }}">
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">

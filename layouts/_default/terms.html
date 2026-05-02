@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main id="main-content" class="section">
+  <div class="container">
+    <h1 class="text-4xl md:text-5xl">{{ .Title }}</h1>
+    <div class="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {{ range .Data.Terms.Alphabetical }}
+        <a href="{{ .Page.RelPermalink }}" class="card block hover:border-primary-200 hover:shadow-md">
+          <h2 class="text-xl">{{ .Page.Title }}</h2>
+          <p class="mt-2 text-sm text-slate-600">{{ .Count }} {{ if eq $.Site.Language.Lang "zh" }}篇内容{{ else }}posts{{ end }}</p>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</main>
+{{ end }}
