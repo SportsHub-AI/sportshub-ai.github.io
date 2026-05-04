@@ -12,9 +12,11 @@ ignoreFiles = [
 
 [languages.en]
   weight = 2
-  label = "English"
   contentDir = "content/en"
-  lang = "en"
+
+  [languages.en.params]
+    label = "English"
+    lang = "en"
 
   [[languages.en.menu.main]]
     identifier = "home"
@@ -79,9 +81,11 @@ ignoreFiles = [
 
 [languages.zh]
   weight = 1
-  label = "简体中文"
   contentDir = "content/zh"
-  lang = "zh"
+
+  [languages.zh.params]
+    label = "简体中文"
+    lang = "zh"
 
   [[languages.zh.menu.main]]
     identifier = "home"

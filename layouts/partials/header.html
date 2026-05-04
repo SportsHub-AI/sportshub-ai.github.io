@@ -33,7 +33,7 @@
       <div class="hidden items-center gap-4 md:flex">
         {{ range .AllTranslations }}
           {{ if ne .Language.Lang $lang }}
-            <a href="{{ .RelPermalink }}" class="inline-flex min-h-11 items-center text-sm font-black text-[#536170] hover:text-[#0071e3]">{{ .Language.Label | default .Language.Lang }}</a>
+            <a href="{{ .RelPermalink }}" class="inline-flex min-h-11 items-center text-sm font-black text-[#536170] hover:text-[#0071e3]">{{ .Language.Params.label | default .Language.Lang }}</a>
           {{ end }}
         {{ end }}
         <a href="{{ $contactURL }}" class="btn-primary">{{ $contactText }}</a>
@@ -62,7 +62,7 @@
             <div class="mt-3 flex items-center justify-between border-t border-[#e5e5ea] pt-4">
               {{ range .AllTranslations }}
                 {{ if ne .Language.Lang $lang }}
-                  <a href="{{ .RelPermalink }}" class="text-sm font-black text-[#536170]">{{ .Language.Label | default .Language.Lang }}</a>
+                  <a href="{{ .RelPermalink }}" class="text-sm font-black text-[#536170]">{{ .Language.Params.label | default .Language.Lang }}</a>
                 {{ end }}
               {{ end }}
               <a href="{{ $contactURL }}" class="btn-primary">{{ $contactText }}</a>
