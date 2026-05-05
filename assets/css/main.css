@@ -242,3 +242,96 @@
     @apply aspect-[9/19.5] w-full rounded-[28px] object-cover object-top;
   }
 }
+
+main#main-content > section:first-child:not(.home-hero) {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 74% 22%, rgba(0,113,227,0.16), transparent 28rem),
+    radial-gradient(circle at 24% 12%, rgba(0,199,129,0.12), transparent 24rem),
+    linear-gradient(#fbfbfd, #f5f5f7 70%);
+}
+
+main#main-content > section:first-child:not(.home-hero)::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.36;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.035) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: linear-gradient(to bottom, black 0%, transparent 82%);
+}
+
+main#main-content > section:first-child:not(.home-hero) > .container {
+  position: relative;
+}
+
+main#main-content > section.bg-white,
+main#main-content > section.bg-slate-50,
+main#main-content > section.bg-\[\#f5f5f7\],
+main#main-content > section.bg-\[\#fbfbfd\] {
+  background-color: #f5f5f7;
+}
+
+main#main-content section.section > .container > .grid .dark-panel,
+main#main-content section.section > .container > .grid > figure,
+main#main-content section.section > .container > .grid > img {
+  border-radius: 28px;
+  border: 1px solid rgba(255,255,255,0.72);
+  background: rgba(255,255,255,0.72);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.08);
+  backdrop-filter: blur(18px);
+}
+
+main#main-content section.section > .container > .grid > img {
+  padding: 0.75rem;
+}
+
+main#main-content .card,
+main#main-content .capability-cell,
+main#main-content .contact-panel,
+main#main-content .solution-card {
+  border-color: rgba(255,255,255,0.72);
+  background: rgba(255,255,255,0.72);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.07);
+  backdrop-filter: blur(18px);
+}
+
+main#main-content section.section-tight[class*="bg-[#1d1d1f]"] {
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+main#main-content section.section-tight[class*="bg-[#1d1d1f]"]::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.28;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+main#main-content section.section-tight[class*="bg-[#1d1d1f]"] > .container {
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    white-space: normal;
+  }
+
+  .hero-signal {
+    border-radius: 28px;
+  }
+
+  .hero-signal-item {
+    border-radius: 22px;
+  }
+}
