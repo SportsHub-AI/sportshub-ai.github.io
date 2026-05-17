@@ -43,33 +43,39 @@ ignoreFiles = [
 
   [[languages.en.menu.main]]
   parent = "products"
+  name = "Basketball Team Intelligence"
+  url = "/en/products/basketball-team-intelligence/"
+  weight = 2
+
+  [[languages.en.menu.main]]
+  parent = "products"
   name = "AcePoint App"
   url = "/en/products/tennis-app/"
-  weight = 2
+  weight = 3
 
     [[languages.en.menu.main]]
   parent = "products"
   name = "SoccerMind: Football Performance Analysis System"
   url = "/en/products/gps-device/"
-  weight = 3
+  weight = 4
 
   [[languages.en.menu.main]]
   parent = "products"
   name = "Team Sport Data Collection"
   url = "/en/products/data-collection/"
-  weight = 4
+  weight = 5
 
   [[languages.en.menu.main]]
   parent = "products"
   name = "Automated Data Analytics"
   url = "/en/products/data-analysis/"
-  weight = 5
+  weight = 6
 
   [[languages.en.menu.main]]
   parent = "products"
   name = "Professional Sports Database"
   url = "/en/products/database/"
-  weight = 6
+  weight = 7
 
 
   [[languages.en.menu.main]]
@@ -111,35 +117,41 @@ ignoreFiles = [
   url = "/zh/products/swish-app/"
   weight = 1
 
+  [[languages.zh.menu.main]]
+  parent = "products"
+  name = "SportsHub 篮球分析平台"
+  url = "/zh/products/basketball-team-intelligence/"
+  weight = 2
+
     [[languages.zh.menu.main]]
   parent = "products"
   name = "AcePoint App"
   url = "/zh/products/tennis-app/"
-  weight = 2
+  weight = 3
 
     [[languages.zh.menu.main]]
   parent = "products"
   name = "SoccerMind足球表现分析系统"
   url = "/zh/products/gps-device/"
-  weight = 3
+  weight = 4
 
   [[languages.zh.menu.main]]
   parent = "products"
   name = "团队运动数据收集"
   url = "/zh/products/data-collection/"
-  weight = 4
+  weight = 5
 
   [[languages.zh.menu.main]]
   parent = "products"
   name = "自动化数据分析"
   url = "/zh/products/data-analysis/"
-  weight = 5
+  weight = 6
 
   [[languages.zh.menu.main]]
   parent = "products"
   name = "职业赛事数据库"
   url = "/zh/products/database/"
-  weight = 6
+  weight = 7
 
   [[languages.zh.menu.main]]
     identifier = "contact"

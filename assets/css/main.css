@@ -226,6 +226,78 @@
     @apply rounded-[28px] border border-white/10 bg-white/[0.07] p-5 text-white backdrop-blur;
   }
 
+  .model-band {
+    @apply relative overflow-hidden bg-[#05070b];
+  }
+
+  .model-band::before {
+    content: "";
+    @apply pointer-events-none absolute inset-0 opacity-40;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(0,113,227,0.34), transparent 34rem),
+      linear-gradient(rgba(255,255,255,0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.07) 1px, transparent 1px);
+    background-size: auto, 48px 48px, 48px 48px;
+    mask-image: linear-gradient(to bottom, black 0%, transparent 92%);
+  }
+
+  .model-panel {
+    @apply relative overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.06] p-6 shadow-[0_34px_110px_rgba(0,0,0,0.36)] backdrop-blur-xl sm:p-8 lg:p-10;
+  }
+
+  .model-panel::after {
+    content: "";
+    @apply pointer-events-none absolute inset-x-8 top-0 h-px bg-white/40;
+  }
+
+  .model-chip {
+    @apply inline-flex min-h-10 items-center rounded-full border border-white/10 bg-white/[0.08] px-4 py-2 text-sm font-semibold text-white backdrop-blur;
+  }
+
+  .model-console {
+    @apply rounded-[28px] border border-white/10 bg-[#101722]/80 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)] backdrop-blur-xl;
+  }
+
+  .model-console-header {
+    @apply flex items-center justify-between gap-4 border-b border-white/10 pb-4 text-sm;
+  }
+
+  .model-console-header span {
+    @apply font-semibold uppercase tracking-[0.16em] text-[#9aa4b2];
+  }
+
+  .model-console-header strong {
+    @apply rounded-full bg-[#b7f35b] px-3 py-1 text-xs font-black uppercase tracking-[0.12em] text-[#08111f];
+  }
+
+  .model-flow {
+    @apply mt-5 grid gap-3;
+  }
+
+  .model-flow div {
+    @apply rounded-2xl border border-white/10 bg-white/[0.06] p-4;
+  }
+
+  .model-flow span {
+    @apply text-xs font-semibold uppercase tracking-[0.16em] text-[#7c8794];
+  }
+
+  .model-flow strong {
+    @apply mt-2 block text-base leading-6 text-white;
+  }
+
+  .model-stat {
+    @apply rounded-2xl border border-white/10 bg-white/[0.06] p-4;
+  }
+
+  .model-stat b {
+    @apply block text-lg text-white;
+  }
+
+  .model-stat span {
+    @apply mt-1 block text-xs leading-5 text-[#9aa4b2];
+  }
+
   .audience-card {
     @apply glass-panel p-6;
   }

@@ -43,6 +43,54 @@
     </div>
   </div>
 
+  <section class="section model-band" aria-labelledby="model-title">
+    <div class="container">
+      <div class="model-panel">
+        <div class="grid gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
+          <div>
+            <p class="kicker text-[#9aa4b2]">{{ if $isZh }}SportsHub large model{{ else }}SportsHub large model{{ end }}</p>
+            <h2 id="model-title" class="text-4xl leading-tight text-white md:text-6xl">{{ if $isZh }}全球首个产品落地的团队运动垂类大模型{{ else }}The world's first team-sports vertical large model in production{{ end }}</h2>
+            <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">{{ if $isZh }}SportsHub.AI 将专业赛事知识、训练数据、健康风险和体能表现沉淀为团队产品中的智能中枢，让模型不止能回答问题，更能参与复盘、预警和训练计划生成。{{ else }}SportsHub.AI turns match expertise, training data, health risk, and physical performance signals into an intelligence layer inside team products, so the model can support review, alerts, and training plans instead of only answering questions.{{ end }}</p>
+            <div class="mt-8 flex flex-wrap gap-3">
+              <span class="model-chip">{{ if $isZh }}职业比赛分析员{{ else }}Professional game analyst{{ end }}</span>
+              <span class="model-chip">{{ if $isZh }}健康专员{{ else }}Health specialist{{ end }}</span>
+              <span class="model-chip">{{ if $isZh }}体能表现训练师{{ else }}Physical performance trainer{{ end }}</span>
+            </div>
+            <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+              <a class="btn bg-white text-[#1d1d1f] hover:bg-[#f5f5f7]" href="{{ cond $isZh "/zh/products/basketball-team-intelligence/" "/en/products/basketball-team-intelligence/" }}">{{ if $isZh }}查看篮球分析平台{{ else }}Explore basketball intelligence{{ end }}</a>
+              <a class="btn border border-white/20 bg-white/10 text-white hover:bg-white/15" href="http://8.137.187.246/" target="_blank" rel="noopener noreferrer">{{ if $isZh }}登录内测平台{{ else }}Log in to beta{{ end }}</a>
+            </div>
+          </div>
+          <div class="model-console" aria-label="{{ if $isZh }}团队运动大模型能力示意{{ else }}Team sports large model capabilities{{ end }}">
+            <div class="model-console-header">
+              <span>{{ if $isZh }}Team Model OS{{ else }}Team Model OS{{ end }}</span>
+              <strong>{{ if $isZh }}训练闭环在线{{ else }}Training loop online{{ end }}</strong>
+            </div>
+            <div class="model-flow">
+              <div>
+                <span>{{ if $isZh }}输入{{ else }}Input{{ end }}</span>
+                <strong>{{ if $isZh }}视频 · GPS · 伤病 · 赛事数据{{ else }}Video · GPS · health · match data{{ end }}</strong>
+              </div>
+              <div>
+                <span>{{ if $isZh }}理解{{ else }}Reasoning{{ end }}</span>
+                <strong>{{ if $isZh }}战术、负荷、风险、技术动作联合判断{{ else }}Joint judgment across tactics, load, risk, and technique{{ end }}</strong>
+              </div>
+              <div>
+                <span>{{ if $isZh }}输出{{ else }}Output{{ end }}</span>
+                <strong>{{ if $isZh }}复盘结论、风险预警、下一堂训练建议{{ else }}Review findings, risk alerts, and next-session guidance{{ end }}</strong>
+              </div>
+            </div>
+            <div class="mt-5 grid gap-3 sm:grid-cols-3">
+              <div class="model-stat"><b>{{ if $isZh }}多角色{{ else }}Multi-role{{ end }}</b><span>{{ if $isZh }}服务教练组{{ else }}For coaching teams{{ end }}</span></div>
+              <div class="model-stat"><b>{{ if $isZh }}多模态{{ else }}Multimodal{{ end }}</b><span>{{ if $isZh }}连接训练现场{{ else }}Connected to the field{{ end }}</span></div>
+              <div class="model-stat"><b>{{ if $isZh }}可落地{{ else }}In product{{ end }}</b><span>{{ if $isZh }}进入团队工作流{{ else }}Inside team workflows{{ end }}</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section bg-[#f5f5f7]" aria-labelledby="workflow-title">
     <div class="container">
       <div class="grid gap-8 lg:grid-cols-[0.7fr_1.3fr] lg:items-start">
@@ -71,6 +119,7 @@
       </div>
       <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <a class="solution-card" href="{{ cond $isZh "/zh/products/swish-app/" "/en/products/swish-app/" }}"><img src="/images/swish/swish-promo-1.jpg" alt="{{ if $isZh }}空心球 App 宣传图{{ else }}Swish Shot App promotional screen{{ end }}"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#0071e3]">Basketball</p><h3 class="mt-3 text-2xl">{{ if $isZh }}空心球 App{{ else }}Swish Shot App{{ end }}</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}手机即可完成投篮识别、训练记录和反馈。{{ else }}Shot recognition, training records, and feedback from a phone.{{ end }}</p></div></a>
+        <a class="solution-card" href="{{ cond $isZh "/zh/products/basketball-team-intelligence/" "/en/products/basketball-team-intelligence/" }}"><img src="/images/basketball-team-intelligence/home.png" alt="{{ if $isZh }}SportsHub 篮球分析平台首页{{ else }}SportsHub Basketball Intelligence Platform home screen{{ end }}"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#0071e3]">Team AI</p><h3 class="mt-3 text-2xl">{{ if $isZh }}SportsHub 篮球分析平台{{ else }}Basketball Intelligence Platform{{ end }}</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}比赛报告、球队垂类 AI 与训练穿戴洞察进入同一个工作台。{{ else }}Match reports, team AI, and wearable training insights in one workspace.{{ end }}</p></div></a>
         <a class="solution-card" href="{{ cond $isZh "/zh/products/tennis-app/" "/en/products/tennis-app/" }}"><img src="/images/tennis-app.png" alt="{{ if $isZh }}AcePoint App 界面{{ else }}AcePoint App interface{{ end }}"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Tennis</p><h3 class="mt-3 text-2xl">AcePoint App</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}识别击球、落点、动作类型和关键视频。{{ else }}Recognize strokes, landing zones, action types, and key clips.{{ end }}</p></div></a>
         <a class="solution-card" href="{{ cond $isZh "/zh/products/gps-device/" "/en/products/gps-device/" }}"><img src="/images/soccermind.png" alt="{{ if $isZh }}SoccerMind 产品展示{{ else }}SoccerMind product preview{{ end }}"><div class="solution-card-body"><p class="text-xs font-black uppercase tracking-[0.16em] text-[#515154]">Football</p><h3 class="mt-3 text-2xl">SoccerMind</h3><p class="mt-3 text-sm leading-6 text-[#536170]">{{ if $isZh }}GPS/北斗追踪、团队负荷和足球表现分析。{{ else }}GPS/BeiDou tracking, team load, and football performance analytics.{{ end }}</p></div></a>
       </div>
